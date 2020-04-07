@@ -168,10 +168,11 @@ a.abutton_gray {
 	box-sizing: border-box;
   text-align:center;
 }
+
 .content_bar_logos {
   margin:15px auto 0 auto;
   padding:0px;
-	max-width:605px;
+	max-width:610px;
 	box-sizing: border-box;
 }
 
