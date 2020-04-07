@@ -315,6 +315,26 @@ a.abutton_gray {
   box-sizing: border-box;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #002E60;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 @media only screen and (max-width: 1130px) {
 
   .text_body {
@@ -364,11 +384,16 @@ a.abutton_gray {
       padding:30px 0;
     }
 
+
+
 }
 
 @media only screen and (max-width: 960px) {
 
-
+  .buttons_cats {
+    margin:0 auto 20px auto;
+    width: 100%;
+  }
   .step {
     max-width: 100%;
     padding:0px 15px 20px 15px;
@@ -396,6 +421,9 @@ a.abutton_gray {
   .content_bar_in {
     padding:30px 15px;
   }
+
+
+
 
 }
 
@@ -456,4 +484,27 @@ a.abutton_gray {
 a.litelink {
   text-decoration: none;
   color: #0072E8;
+}
+
+a.whitelink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu_item {
+  margin:0px;
+  padding:0px 15px;
+  line-height:40px;
+  text-align:left;
+}
+
+.menu_item_no_hov {
+  margin:0px;
+  padding:0px 15px;
+  line-height:40px;
+  text-align:left;
+}
+
+.menu_item:hover {
+  background:#0072E8;
 }
