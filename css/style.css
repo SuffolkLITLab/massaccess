@@ -49,6 +49,36 @@ body {
   border-right: 5px solid transparent;
 }
 
+.arrow-up {
+  float:right;
+  margin:0px 0 0 0px;
+  border-bottom: 5px solid #0072E8;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.arrow-down_cat {
+  float:right;
+  margin:0px 0 0 0px;
+  border-top: 5px solid #0072E8;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.cats_link{
+  color:#0072E8;
+  margin:0 auto;
+  font-weight:bold;
+  font-size: 18px;
+  width:200px;
+  padding:20px;
+  text-align: center;
+}
+
 .menu {
   display:none;
   float:right;
@@ -110,9 +140,11 @@ h2 {
   width: 645px;
 }
 
-
-
-
+.buttons_cats {
+  position:relative;
+  margin:0 auto 20px auto;
+  width: 860px;
+}
 
 .button {
   float:left;
@@ -122,6 +154,7 @@ h2 {
   font-weight:600;
   display: table;
   box-sizing: border-box;
+  border: 2px solid #fff;
   border-radius:10px;
   padding-right:8px;
   margin:15px 0px 0 15px;
@@ -192,6 +225,14 @@ a.abutton_gray {
   box-sizing: border-box;
 }
 
+.content_bar_description {
+  float:left;
+  width:100%;
+  padding:35px 0;
+  border-bottom: 1px solid #CCCCCC;
+  text-align:left;
+  box-sizing: border-box;
+}
 
 .content_bar_in_text {
   float:left;
@@ -237,6 +278,43 @@ a.abutton_gray {
   text-align:left;
 }
 
+.start {
+  color:white;
+}
+
+.blue {
+  color:#0072E8;
+}
+
+.start_hidden {
+  display:none;
+  float:left;
+  background: #0072E8;
+  width: 175px;
+  height: 60px;
+  line-height: 60px;
+  text-align:center;
+  color:white;
+  font-weight:600;
+  border-radius:10px;
+  margin:10px 0px 0 0px;
+  box-sizing: border-box;
+}
+
+.start {
+  float:left;
+  background: #0072E8;
+  width: 175px;
+  height: 60px;
+  line-height: 60px;
+  text-align:center;
+  color:white;
+  font-weight:600;
+  border-radius:10px;
+  margin:0px 0px 0 20px;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 1130px) {
 
   .text_body {
@@ -244,6 +322,11 @@ a.abutton_gray {
   }
 
   .content_bar_in_text {
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+  .content_bar_description {
     padding-left:15px;
     padding-right:15px;
   }
@@ -305,6 +388,7 @@ a.abutton_gray {
   	width:100%;
   }
 
+
   .logo_table {
     width:100%;
   }
@@ -330,10 +414,17 @@ a.abutton_gray {
     font-size: 15px;
   }
 
-
   .button {
     width: 90vw;
   }
+
+  .start {
+    display:none;
+  }
+  .start_hidden {
+    display:block;
+  }
+
 }
 
 
