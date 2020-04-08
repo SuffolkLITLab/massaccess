@@ -10,8 +10,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<meta name="apple-mobile-web-app-capable" content="no" />
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Inter Bold 700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inter:wght@700' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="../css/style.css?v=1">
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 </HEAD>
 <BODY BGCOLOR="#ffffff" BACKGROUND="" MARGINWIDTH="0" MARGINHEIGHT="0">
 
@@ -64,61 +67,167 @@
     </div>
   </div>
 
-<div class="gray_band">
+  <div class="gray_band" style="padding:0px;" role="navigation">
+
+    <div id="cat_buttons" style="display:none;float:left;margin-bottom:8px;width:100%;">
+      <div class="buttons_cats">
+
+        <a href="../housing/" class="abutton"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_housing.png" alt="housing icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Housing</span>
+          </div>
+        </div></a>
+
+        <a href="../dv/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_domestic_violence_gray.png" alt="grayed domestic violence icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Domestic Violence</span>
+          </div>
+        </div></a>
+
+        <a href="../guardianship/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+              <img src="../images/icon_guardianship_gray.png" alt="grayed guardianship icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+              <span class="b_text">Guardianship</span>
+          </div>
+        </div></a>
+
+        <a href="../family/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_family_gray.png"  alt="grayed family icon"class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Family Law</span>
+          </div>
+        </div></a>
+
+        <a href="../employment/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_employment_gray.png" alt="grayed employment icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Employment / Unemployment</span>
+          </div>
+        </div></a>
+
+        <a href="../consumer/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_consumer_gray.png" alt="grayed consumer icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Consumer &amp; Debt</span>
+          </div>
+        </div></a>
+
+        <a href="../health/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_health_gray.png" alt="grayed health icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Health and Mental Health</span>
+          </div>
+        </div></a>
+
+        <a href="../income/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_income_gray.png" alt="grayed income icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Income and Benefits</span>
+          </div>
+        </div></a>
+
+        <a href="../immigration/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_immigration_gray.png" alt="grayed immigration icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Immigration</span>
+          </div>
+        </div></a>
+
+        <a href="../education/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_education_gray.png" alt="grayed education icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Education</span>
+          </div>
+        </div></a>
+
+        <a href="../safety/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_safety_others_gray.png" alt="grayed safety icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Safety of Others</span>
+          </div>
+        </div></a>
+
+        <a href="../other/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_other_gray.png" alt="grayed other icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Other</span>
+          </div>
+        </div></a>
+
+      </div>
+    </div>
+
+    <a href="#" onClick="$('#hcats').hide();$('#cat_buttons').hide();$('#scats').show();" class="litelink"><div id="hcats" class="cats_link" style="display:none;width:170px"><div class="show_table"><div class="show_cell">Hide Categories</div><div class="show_cell" style="width:1%"><div class="arrow-up"></div></div></div></div></a>
+
+    <a href="javascript:void('');" onClick="$('#scats').hide();$('#cat_buttons').show();$('#hcats').show();" class="litelink"><div id="scats" class="cats_link" style="width:175px"><div class="show_table"><div class="show_cell">Show Categories</div><div class="show_cell" style="width:1%"><div class="arrow-down_cat"></div></div></div></div></a>
+
+  </div>
+
+  <div class="white_band">
+    <div class="content_bar">
+      <div class="content_bar_in_text" style="padding:10px;">
+        <h1>Guided Interviews Terms of Use and Data Privacy Policy</h1>
+    </div>
+  </div>
+  </div>
+
+<div class="white_band" role="main">
   <div class="content_bar">
-    <div class="content_bar_in_text" style="padding:10px;border-bottom:0px solid">
-      <h1>Guided Interviews Terms of Use and Data Privacy Policy</h1>
+    <div class="content_bar_in_text">
       <p style="text-align:left">
         Suffolk University Law School Legal Innovation and Technology Lab ("the LIT Lab") is a non-profit organization based in the Greater Boston Area that provides free legal help to low-income clients.
       </p>
       <p>
           The website ("apps.litlab.org") and the guided interviews available there are provided as a free service for low-income residents of the state of Massachusetts. By using the service, you accept and agree to the terms of use and privacy policy set forth below.
       </p>
+
+      <h2>Terms Of Use and Data Privacy Policy</h2>
+      <h3>Important disclaimers</h3>
+       <ul>
+         <li>This website does not constitute legal advice. You should consult a lawyer for legal advice.
+         <li>We use our best efforts to prepare the forms on this site and to keep them up to date. Law changes or court or local variations may make any forms generated by this site unenforceable.
+         <li>This website is offered completely without warranty, including an implied warranty of fitness. the LIT Lab disclaims all liability for your use of information on this website or your reliance on the forms created by a guided interview.
+         <li>You agree to indemnify and hold harmless the LIT Lab, its board of directors and employees for all claims arising out of your use of these guided interviews or the <li>information that they give you.
+         <li>the LIT Lab does not offer technical support for the interviews provided on this website.
+         <li>Information you enter may not be protected by attorney-client privilege or attorney work product doctrine.
+         <li>Do not use this system to conduct unauthorized practice of law. If you do, you may face civil or criminal liability.
+       </ul>
+
     </div>
   </div>
 </div>
 
-<div class="white_band">
-  <div class="content_bar">
-    <div class="content_bar_in_text">
-    <h2>Terms Of Use and Data Privacy Policy</h2>
-    <h3>Important disclaimers</h3>
-     <ul>
-       <li>This website does not constitute legal advice. You should consult a lawyer for legal advice.
-       <li>We use our best efforts to prepare the forms on this site and to keep them up to date. Law changes or court or local variations may make any forms generated by this site unenforceable.
-       <li>This website is offered completely without warranty, including an implied warranty of fitness. the LIT Lab disclaims all liability for your use of information on this website or your reliance on the forms created by a guided interview.
-       <li>You agree to indemnify and hold harmless the LIT Lab, its board of directors and employees for all claims arising out of your use of these guided interviews or the <li>information that they give you.
-       <li>the LIT Lab does not offer technical support for the interviews provided on this website.
-       <li>Information you enter may not be protected by attorney-client privilege or attorney work product doctrine.
-       <li>Do not use this system to conduct unauthorized practice of law. If you do, you may face civil or criminal liability.
-     </ul>
 
-  </div>
-</div>
-
-<div class="white_band">
-  <div class="content_bar">
-    <div class="content_bar_in_text">
-    <h2>Terms Of Use and Data Privacy Policy</h2>
-    <h3>Important disclaimers</h3>
-     <ul>
-       <li>This website does not constitute legal advice. You should consult a lawyer for legal advice.
-       <li>We use our best efforts to prepare the forms on this site and to keep them up to date. Law changes or court or local variations may make any forms generated by this site unenforceable.
-       <li>This website is offered completely without warranty, including an implied warranty of fitness. the LIT Lab disclaims all liability for your use of information on this website or your reliance on the forms created by a guided interview.
-       <li>You agree to indemnify and hold harmless the LIT Lab, its board of directors and employees for all claims arising out of your use of these guided interviews or the <li>information that they give you.
-       <li>the LIT Lab does not offer technical support for the interviews provided on this website.
-       <li>Information you enter may not be protected by attorney-client privilege or attorney work product doctrine.
-       <li>Do not use this system to conduct unauthorized practice of law. If you do, you may face civil or criminal liability.
-     </ul>
-
-  </div>
-</div>
-
-
-<div class="white_band" style="margin-bottom:200px;">
+<div class="white_band" style="margin-bottom:200px;" role="contentinfo">
   <div class="content_bar">
     <div class="content_bar_in" style="border-bottom:0px solid">
-    <center><a href="../privacy/" class="litelink">Privacy Policy &amp; Terms of Service</a></center>
+    <center><a href="../privacy/" class="litelink">Privacy Policy &amp; Terms of Use</a></center>
     </div>
     </div>
   </div>

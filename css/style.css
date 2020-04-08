@@ -125,6 +125,13 @@ body {
   text-align:center;
 }
 
+.alert_2 {
+  background:#d6392b;
+  padding:20px 15px;
+  text-align:center;
+  color:white;"
+}
+
 h1 {
   font-family: 'Inter Bold', 'Arial';
   color: #202A35;
