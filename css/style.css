@@ -52,7 +52,7 @@ body {
 .arrow-up {
   float:right;
   margin:0px 0 0 0px;
-  border-bottom: 5px solid #0072E8;
+  border-bottom: 5px solid #00549E;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -62,7 +62,7 @@ body {
 .arrow-down_cat {
   float:right;
   margin:0px 0 0 0px;
-  border-top: 5px solid #0072E8;
+  border-top: 5px solid #00549E;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -70,7 +70,7 @@ body {
 }
 
 .cats_link{
-  color:#0072E8;
+  color:#00549E;
   margin:0 auto;
   font-weight:bold;
   font-size: 18px;
@@ -554,6 +554,11 @@ a.abutton_gray {
 a.litelink {
   text-decoration: none;
   color: #0072E8;
+}
+
+a.liteishlink {
+  text-decoration: none;
+  color: #00549E;
 }
 
 a.whitelink {
