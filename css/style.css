@@ -281,6 +281,7 @@ a.abutton_gray {
 .logo_cell {
   display: table-cell;
   vertical-align: middle;
+  text-align:center;
 }
 
 
@@ -493,6 +494,10 @@ a.abutton_gray {
 
 
   .logo_table {
+    width:100%;
+  }
+
+  .logo_cell {
     width:100%;
   }
 
