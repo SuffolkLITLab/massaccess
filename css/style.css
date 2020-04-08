@@ -517,11 +517,10 @@ a.abutton_gray {
     width: 90vw;
   }
 
-  .start {
-    display:none;
-  }
-  .start_hidden {
-    display:block;
+  .desc_cell {
+    float:left;
+    width: 100%;
+    display: block;
   }
 
 }
