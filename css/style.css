@@ -74,15 +74,42 @@ body {
   margin:0 auto;
   font-weight:bold;
   font-size: 18px;
-  width:200px;
-  padding:20px;
+  width:170px;
+  padding:0px;
   text-align: center;
+}
+
+.show_table {
+  float:left;
+  max-width: 100%;
+  text-align:left;
+  box-sizing: border-box;
+  display: table;
+}
+
+.show_cell {
+  display: table-cell;
+  vertical-align: middle;
+  height:60px;
+}
+
+.desc_table {
+  float:left;
+  max-width: 100%;
+  text-align:left;
+  box-sizing: border-box;
+  display: table;
+}
+
+.desc_cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .menu {
   display:none;
   float:right;
-  margin:10px;
+  margin:10px 10px 0 10px;
 }
 
 .nav_menu {
@@ -303,6 +330,9 @@ a.abutton_gray {
   display: table-cell;
   vertical-align: middle;
 }
+
+
+
 
 
 

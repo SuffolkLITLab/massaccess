@@ -18,137 +18,176 @@
 </HEAD>
 <BODY BGCOLOR="#ffffff" BACKGROUND="" MARGINWIDTH="0" MARGINHEIGHT="0">
 
-<div class="header">
-  <div class="nav_bar">
-    <a href="javascript:void('');">
+  <div class="header" role="banner">
+    <div class="nav_bar">
       <div class="menu">
-        <div class="nav_menu"></div>
-      <div class="nav_menu"></div>
-      <div class="nav_menu"></div>
+        <div class="dropdown">
+            <div class="nav_menu"></div>
+            <div class="nav_menu"></div>
+            <div class="nav_menu" style="margin-bottom:17px;"></div>
+          <div class="dropdown-content" style="right:-10px;">
+            <a href="myforms/" class="whitelink"><p class="menu_item">My Forms</p></a>
+            <a href="about/" class="whitelink"><p class="menu_item">About Us</p></a>
+            <p class="menu_item_no_hov">Language:</p>
+            <a href="./" class="whitelink"><p class="menu_item" style="padding-left:25px;"> English</p></a>
+            <a href="es" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Español</p></a>
+            <!--<a href="pt" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Portuguese</p></a>
+            <a href="pt-cv" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Cape Verdean</p></a>
+            <a href="ht" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Haitian-Creole</p></a>
+            <a href="ar" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Arabic</p></a>
+            <a href="zh" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Chinese</p></a>
+            <a href="km" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Khmer</p></a>
+            <a href="ru" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Russian</p></a>
+            <a href="vi" class="whitelink"><p class="menu_item" style="padding-left:25px;"> Vietnamese</p></a>-->
+          </div>
+        </div>
       </div>
-    </a>
-    <a href="../myforms/"><div class="right_nav">My Forms</div></a>
-    <a href="../about/"><div class="right_nav">About Us</div></a>
-    <a href="javascript:void('');"><div class="right_nav">
-      Languages
-      <div class="arrow-down"></div>
-    </div></a>
-    <a href="../">
-    <img id="MA_logo" src="../images/mass_icon.png" class="ma_logo">
-    <div class="title">MassAccess</div>
-    </a>
+      <a href="myforms/"><div class="right_nav">My Forms</div></a>
+      <a href="about/"><div class="right_nav">About Us</div></a>
+      <div class="right_nav">
+        <div class="dropdown">
+          Languages
+          <div class="arrow-down"></div>
+          <div class="dropdown-content" style="left:-10px;">
+            <a href="./" class="whitelink"><p class="menu_item">English</p></a>
+            <a href="es" class="whitelink"><p class="menu_item">Español</p></a>
+            <!--<a href="pt" class="whitelink"><p class="menu_item">Portuguese</p></a>
+            <a href="pt-cv" class="whitelink"><p class="menu_item">Cape Verdean</p></a>
+            <a href="ht" class="whitelink"><p class="menu_item">Haitian-Creole</p></a>
+            <a href="ar" class="whitelink"><p class="menu_item">Arabic</p></a>
+            <a href="zh" class="whitelink"><p class="menu_item">Chinese</p></a>
+            <a href="km" class="whitelink"><p class="menu_item">Khmer</p></a>
+            <a href="ru" class="whitelink"><p class="menu_item">Russian</p></a>
+            <a href="vi" class="whitelink"><p class="menu_item">Vietnamese</p></a>-->
+          </div>
+        </div>
+      </div>
+      <a href="../"><img id="MA_logo" src="../images/mass_icon.png" alt="MA State Icon" class="ma_logo">
+      <div class="title">MassAccess</div></a>
+    </div>
   </div>
-</div>
 
-<div class="gray_band" style="padding:0px;">
+  <div class="gray_band" style="padding:0px;" role="navigation">
 
-<div id="cat_buttons" style="display:none;float:left;margin-bottom:20px;width:100%;">
-  <div class="buttons_cats">
+    <div id="cat_buttons" style="display:none;float:left;margin-bottom:8px;width:100%;">
+      <div class="buttons_cats">
 
-    <a href="../housing/" class="abutton"><div class="button" style="border: 2px solid #0072E8">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_housing.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Housing</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../housing/" class="abutton"><div class="button" style="border: 2px solid #0072E8">
+          <div class="button_cell_l">
+            <img src="../images/icon_housing.png" alt="housing icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Housing</span>
+          </div>
+        </div></a>
 
-    <a href="../dv/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_domestic_violence_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Domestic Violence</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../dv/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_domestic_violence_gray.png" alt="grayed domestic violence icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Domestic Violence</span>
+          </div>
+        </div></a>
 
-    <a href="../consumer/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_consumer_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Consumer &amp; Debt</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../guardianship/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+              <img src="../images/icon_guardianship_gray.png" alt="grayed guardianship icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+              <span class="b_text">Guardianship</span>
+          </div>
+        </div></a>
 
+        <a href="../family/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_family_gray.png"  alt="grayed family icon"class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Family Law</span>
+          </div>
+        </div></a>
 
-    <a href="../employment/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_employment_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Employment / Unemployment</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../employment/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_employment_gray.png" alt="grayed employment icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Employment / Unemployment</span>
+          </div>
+        </div></a>
 
-    <a href="../family/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_family_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Family Law</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../consumer/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_consumer_gray.png" alt="grayed consumer icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Consumer &amp; Debt</span>
+          </div>
+        </div></a>
 
-    <a href="guardianship/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_guardianship_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Guardianship</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../health/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_health_gray.png" alt="grayed health icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Health and Mental Health</span>
+          </div>
+        </div></a>
 
-    <a href="../health/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_health_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Health and Mental Health</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../income/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_income_gray.png" alt="grayed income icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Income and Benefits</span>
+          </div>
+        </div></a>
 
-    <a href="../income/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_income_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Income and Benefits</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../immigration/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_immigration_gray.png" alt="grayed immigration icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Immigration</span>
+          </div>
+        </div></a>
 
-    <a href="../immigration/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_immigration_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Immigration</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../education/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_education_gray.png" alt="grayed education icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Education</span>
+          </div>
+        </div></a>
 
-    <a href="../education/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_education_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Education</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../safety/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_safety_others_gray.png" alt="grayed safety icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Safety of Others</span>
+          </div>
+        </div></a>
 
-    <a href="../safety/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_safety_others_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Safety of Others</span>
-      </tr></td></table>
-    </div></a>
+        <a href="../other/" class="abutton_gray"><div class="button">
+          <div class="button_cell_l">
+            <img src="../images/icon_other_gray.png" alt="grayed other icon" class="topic_icon">
+          </div>
+          <div class="button_cell">
+            <span class="b_text">Other</span>
+          </div>
+        </div></a>
 
-    <a href="../other/" class="abutton_gray"><div class="button">
-      <table height="60px"><tr><td valign=middle>
-      <img src="../images/icon_other_gray.png" class="topic_icon">
-      </td><td valign=middle>
-      <span class="b_text">Other</span>
-      </tr></td></table>
-    </div></a>
+      </div>
+    </div>
+
+    <a href="javascript:void('');" onClick="$('#hcats').hide();$('#cat_buttons').hide();$('#scats').show();" class="litelink"><div id="hcats" class="cats_link" style="display:none;width:170px"><div class="show_table"><div class="show_cell">Hide Categories</div><div class="show_cell" style="width:1%"><div class="arrow-up"></div></div></div></div></a>
+
+    <a href="javascript:void('');" onClick="$('#scats').hide();$('#cat_buttons').show();$('#hcats').show();" class="litelink"><div id="scats" class="cats_link" style="width:175px"><div class="show_table"><div class="show_cell">Show Categories</div><div class="show_cell" style="width:1%"><div class="arrow-down_cat"></div></div></div></div></a>
 
   </div>
-</div>
-
-  <a href="javascript:void('');" onClick="$('#hcats').hide();$('#cat_buttons').hide();$('#scats').show();" class="litelink"><div id="hcats" class="cats_link" style="display:none;"><table width="100%"><tr><td width="100%">Hide Categories</td><td width="1%"><div class="arrow-up"></div></td></tr></table></div></a>
-
-  <a href="javascript:void('');" onClick="$('#scats').hide();$('#cat_buttons').show();$('#hcats').show();" class="litelink"><div id="scats" class="cats_link"><table width="100%"><tr><td width="100%">Show Categories</td><td width="1%"><div class="arrow-down_cat"></div></td></tr></table></div></a>
-</div>
 
 <div class="white_band">
   <div class="content_bar">
@@ -158,26 +197,28 @@
 </div>
 </div>
 
-<div class="white_band">
+<div class="white_band" role="complementary">
   <div class="content_bar">
     <div class="content_bar_description">
 
-      <table width="100%"><tr><td valign=middle>
+      <div class="desc_table">
+        <div class="desc_cell">
         <h2 class="blue">Temporary Restraining Order</h2>
         <p>
           Contains complaint, TRO, preliminary injunction needed to seek immediate relief for lockouts, emergency repairs, utility shut-offs, and the liken
         </p>
         <a href="https://apps-dev.suffolklitlab.org/interview?i=docassemble.MAVirtualCourt%3Adata%2Fquestions%2FHousing_Temporary_Restraining_Order.yml&new_session=1"><div class="start_hidden">Start this form</div></a>
-      </td><td valign=middle width="1%">
+      </div>
+      <div class="desc_cell" style="width:1%">
         <a href="https://apps-dev.suffolklitlab.org/interview?i=docassemble.MAVirtualCourt%3Adata%2Fquestions%2FHousing_Temporary_Restraining_Order.yml&new_session=1"><div class="start">Start this form</div></a>
-      </tr></td></table>
+      </div>
+      </div>
 
-
+    </div>
   </div>
 </div>
 
-
-<div class="white_band" style="margin-bottom:200px;">
+<div class="white_band" style="margin-bottom:200px;" role="contentinfo">
   <div class="content_bar">
     <div class="content_bar_in" style="border-bottom:0px solid">
     <center><a href="../privacy/" class="litelink">Privacy Policy &amp; Terms of Service</a></center>
