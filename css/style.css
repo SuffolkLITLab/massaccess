@@ -96,13 +96,13 @@ h1 {
   font-family: 'Inter Bold', 'Arial';
   color: #202A35;
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0;
   line-height: 41px;
 }
 
 h2 {
-  font-family: 'Inter Bold 700', 'Arial';
+  font-family: 'Inter Bold', 'Arial';
   color: #202A35;
   font-size: 24px;
   font-weight: bold;
@@ -158,6 +158,10 @@ h2 {
   border-radius:10px;
   padding-right:8px;
   margin:15px 0px 0 15px;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
 
 a.abutton {
