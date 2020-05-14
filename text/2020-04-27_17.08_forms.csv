@@ -1,5 +1,5 @@
 Variable,counts,English,Spanish
-in_progress_msg,,"We are still in the process of creating an interactive version of this form (based on <a href=""%spdfs/%s"" target=""_blank"" onClick=""gtag('event', 'download', {'event_category':'pdf', 'event_label':'%s'});"">this PDF</a>).",
+in_progress_msg,,"We are still in the process of creating an interactive version of this form (based on <a href=""%spdfs/%s"" target=""_blank"" onClick=""gtag('event', 'download', {'event_category':'pdf', 'event_label':'%s'});"">this English PDF</a>).",
 form_1_title,10,Temporary Restraining Order,
 form_1_desc,,"Contains complaint and requests for temporary and permanent orders, preliminary injunction needed to seek immediate relief for lockouts, emergency repairs, utility shut-offs, and the like.",
 form_1_link,,http://apps.suffolklitlab.org/start/housing_tro,
