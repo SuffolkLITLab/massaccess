@@ -150,7 +150,7 @@ help_body,"<p>
       </p>"
 priv_header,Guided Interviews Terms of Use and Data Privacy Policy," Entrevistas Guiadas Acuerdo de Uso y Política de Privacidad
 "
-priv_trans,"<p style=""background:yellow;"">What follows is a translation of the site’s terms of service provided for your convenience. The official authoritative copy is written in English and can be found <a href=../'>here</a>.<p>","<p style=""background:yellow;"">Lo que sigue es traducción de las condiciones del servicio provisto para su conveniencia. La copia oficial autoritaria es escrita en inglés y se puede encontrarla  <a href='../'>acá</a>.<p>"
+priv_trans,<p><b>What follows is a translation of the site’s terms of service provided for your convenience. The official authoritative copy is written in English and can be found <a href=../'>here</a>.</b><p>,<p><b>Lo que sigue es traducción de las condiciones del servicio provisto para su conveniencia. La copia oficial autoritaria es escrita en inglés y se puede encontrarla  <a href='../'>acá</a>.</b><p>
 priv_body,"<p>
         Suffolk University Law School's Legal Innovation and Technology Lab (""the LIT Lab"") is a legal technology consulting shop housed within the Suffolk University Law School (""the Law School""), a non-profit educational institution based in the Greater Boston Area.
       </p>
