@@ -688,3 +688,64 @@ a.whitelink {
 .menu_item:hover {
   background:#0072E8;
 }
+
+.profile_vid {
+	box-sizing: border-box;
+	float:left;
+	margin:15px 25px 25px 0;
+	width:400px;
+	height:200px;
+}
+
+.profile_vid_right {
+	box-sizing: border-box;
+	float:right;
+	margin:15px 0 25px 25px;
+	width:400px;
+	height:200px;
+}
+
+.vid_wrapper {
+	box-sizing: border-box;
+	float:left;
+	padding-bottom:25px;
+}
+
+.vid_wrapper_right {
+	box-sizing: border-box;
+	float:right;
+	padding-bottom:25px;
+}
+
+.profile_wrapper {
+	float:left;
+}
+
+.embed_vid {
+	width:400px;
+	height:225px;
+}
+
+@media only screen and (max-width: 680px) {
+	.vid_wrapper, .vid_wrapper_right {
+		position:relative;
+		width:100%;
+	}
+	.profile_vid, .profile_vid_right {
+		float:none;
+		position:relative;
+		margin:15px auto;
+		width:400px;
+	}
+	.embed_vid {
+		float:none;
+		width:100%;
+	}
+	.profile_img {
+		float:none;
+		position:relative;
+		margin:15px auto;
+		width:400px;
+	}
+
+}
