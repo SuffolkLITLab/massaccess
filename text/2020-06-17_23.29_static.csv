@@ -169,15 +169,15 @@ lang_msg,"We are in the process of creating a translated version of this intervi
 in_prog,In Progress,En progreso
 beta,Private Beta,Beta privado
 beta_209A_header,Application for a 209A Restraining Order (Private Beta),Solicitud de una orden de restricción 209A (Beta privado)
-beta_209A_body,"<p><b>If you are trying to get a restraining order, you should contact a service provider directly for help. Jane Doe Inc. maintains <a href=""https://janedoe.org/find_help/"" target=""_blank"">a list of resource to help you find someone who can help</a>.</b></p>
+beta_209A_body,"<p><b>If you are trying to get a restraining order, you should contact a service provider directly for help. Jane Doe Inc. maintains <a href=""https://janedoe.org/find_help/"" target=""_blank"">a list of resources to help you find someone who can help</a>, or you could call SafeLink's statewide domestic violence hot line at 1-877-785-2020.</b></p>
 
 <p>Our application for a 209A Restraining Order is currently in private beta. That means we are only sharing it with service providers such as DV advocates.</p>
 
-<p>If you are a service provider and would like to have access to the beta, please <a href=""mailto:massaccess@suffolk.edu"">contact us</a>.</p>","<p><b>Si está tratando de obtener una orden de restricción, debe comunicarse con un proveedor de servicios directamente para obtener ayuda. Jane Doe Inc. mantiene <a href=""https://janedoe.org/find_help/"" target=""_blank"">una lista de recursos para ayudarlo a encontrar a alguien que pueda ayudarlo</a>.</b></p>
+<p>If you are a service provider and would like to have access to the beta, please <a href=""mailto:massaccess@suffolk.edu"">contact us</a>.</p>","<p> <b> Si está tratando de obtener una orden de restricción, debe comunicarse con un proveedor de servicios directamente para obtener ayuda. Jane Doe Inc. mantiene <a href=""https://janedoe.org/find_help/"" target=""_blank""> una lista de recursos para ayudarlo a encontrar a alguien que pueda ayudarlo </a>, o puede llamar a SafeLink en todo el estado línea directa de violencia doméstica al 1-877-785-2020. </b> </p>
 
-<p>Nuestra solicitud para una orden de restricción 209A se encuentra actualmente en versión beta privada. Eso significa que solo lo estamos compartiendo con proveedores de servicios como defensores de la violencia doméstica.</p>
+<p> Nuestra solicitud para una orden de restricción 209A se encuentra actualmente en versión beta privada. Eso significa que solo lo compartimos con proveedores de servicios como los defensores de DV. </p>
 
-<p>Si usted es un proveedor de servicios y desea tener acceso a la versión beta, <a href=""mailto:massaccess@suffolk.edu""> contáctenos </a>.</p>"
+<p> Si es un proveedor de servicios y desea tener acceso a la versión beta, <a href=""mailto:massaccess@suffolk.edu""> contáctenos </a>. </p>"
 not_avail,Not available at this time,En este momento no esta disponible
 in_progress_msg,"We are still in the process of creating an interactive version of this form (based on <a href=""%spdfs/%s"" target=""_blank"" onClick=""gtag('event', 'download', {'event_category':'pdf', 'event_label':'%s'});"">this English PDF</a>).","Todavía estamos en el proceso de crear una versión interactiva de este formulario (basado en <a href=""%spdfs/%s"" target=""_blank"" onClick=""gtag('event', 'download', {'event_category':'pdf', 'event_label':'%s'});"">este PDF en inglés</a>)."
 about_header,About Us,Sobre Nosotros
