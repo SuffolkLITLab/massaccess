@@ -5,6 +5,7 @@ ma_icon,Massachusetts State icon,Icono del Estado de Massachusetts
 language,Language,Idioma
 languages,Languages,Idiomas
 about_us,About Us,Quienes Somos
+hackathon,Hackathon,Hackathon
 news,News,Noticias
 my_forms,My Forms,Mis Formularios
 homepage,home page,Página de Inicio
@@ -90,6 +91,8 @@ step_3,"<h3>Step 3</h3>
             <p>
               La corte se pondrá en contacto con usted para los próximos pasos. <b><a href=""%smyforms/%s"" class=""litelink"">Firme</a></b> para ver sus formularios. 
             </p>"
+hackathon_header,Hackathon,Hackathon
+hackathon_body,test,[intentionally blank]
 news_header,News,Noticias
 news_body,"<div class=""vid_wrapper_right""><div class=""profile_vid_right""><iframe class=""embed_vid"" src=""https://www.youtube.com/embed/ENLaVTJWYss?rel=0"" frameborder=""0"" gesture=""media"" allow=""encrypted-media"" allowfullscreen></iframe></div></div>
 <h2>What We're Up To</h2><p>

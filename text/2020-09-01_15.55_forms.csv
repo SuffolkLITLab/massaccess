@@ -1,0 +1,277 @@
+Variable,counts,English,list,Spanish
+in_progress_msg,,"We are still in the process of creating an interactive version of this form (based on <a href=""%spdfs/%s"" target=""_blank"" onClick=""gtag('event', 'download', {'event_category':'pdf', 'event_label':'%s'});"">this English PDF</a>).",,
+form_1_title,10,Request for a Temporary Restraining Order,,Orden de restricción temporal
+form_1_desc,,"<p>Ask the judge to order your landlord to stop doing things that are illegal -  like locking you out, shutting off your utilities, refusing to make emergency repairs, and other things that stop you from feeling like your home is your own. This last is called,  ""Interfering with your right to quiet enjoyment.""</p>
+<p>The name of the form is VERIFIED COMPLAINT AND MOTIONS FOR TEMPORARY RESTRAINING ORDER AND PRELIMINARY INJUNCTION FOR PROTECTION FROM UNLAWFUL EVICTION, UTILITY TERMINATION, OR BREACH OF QUIET ENJOYMENT G.L. c. 186, §14</p>",,"Contiene quejas y solicitudes de órdenes temporales y permanentes, requerimiento judicial preliminar necesario para buscar alivio inmediato para cierres patronales, reparaciones de emergencia, cortes de servicios públicos y similares."
+form_1_link,,https://apps.suffolklitlab.org/start/housing_tro,,
+form_1_base_pdf,,https://www.masslegalhelp.org/housing/lt1-form-15-tro.pdf,,
+form_1_categories,,housing,,
+form_2_title,-1,Housing Stay of Execution,,
+form_2_desc,,"<p>If you lost your eviction case or agreed in court to a judgment to move out and you need more time to move, you can ask a judge to postpone your eviction.</p>
+<p>You have 10 days to file this form. Sometimes you can take longer to file, but the longer you wait, the harder it is to get the order.</p>
+<p>A judge can allow you to stay a maximum of 6 months—or 12 months if you or someone in your household is over 60 or has a physical or mental disability.</p>",,
+form_2_link,,,,
+form_2_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e82560ff37c0b1eb34c1be1/d786fecc38a35ab8dbc12b811b163ea8/lt1-booklet-8-stay_(original).pdf,,
+form_2_categories,,housing,,
+form_3_title,-1,Tenant Petition Form,,
+form_3_desc,,"<p>Tenants can use this petition to ask the court to order your landlord to: <ul><li>Make repairs, especially emergency repairs, and</li><li>lower your rent to the fair rental value while the landlord makes repairs.</li></ul></p><p>You can also use this form to ask the court for a receiver. Receiverships are complicated. Try to talk to lawyer if you need to ask the court for a receiver.</p> ",,
+form_3_link,,,,
+form_3_base_pdf,,https://www.masslegalhelp.org/housing/lt1-form-14-tenant-petition.pdf,,
+form_3_categories,,housing,,
+form_4_title,-1,209A Complaint Page 1,,
+form_4_desc,,"Contains Page 1 of a complaint for protection from abuse and requests that the court order the defendant not to abuse the plaintiff, contact the plaintiff, to remain away from plaintiff's residence/workplace/school, to pay compensation to plaintiff, and the like",,
+form_4_link,,,,
+form_4_base_pdf,,https://www.masslegalhelp.org/domestic-violence/legal-forms/sample-209a-complaint-p1-w-affidavit.pdf,,
+form_4_categories,,dv,,
+form_5_title,-1,209A Complaint Page 2,,
+form_5_desc,,Contains Page 2 of a complaint for protection from abuse regarding issues of child abuse,,
+form_5_link,,,,
+form_5_base_pdf,,https://www.mass.gov/doc/complaint-for-protection-from-abuse-gl-c-209a-page-2/download,,
+form_5_categories,,dv,,
+form_6_title,-1,209A Plaintiff Confidential Information Form,,
+form_6_desc,,"Form requesting that certain information be kept confidential from Defendant, including home/work/school addresses.",,
+form_6_link,,,,
+form_6_base_pdf,,https://www.masslegalhelp.org/domestic-violence/legal-forms/sample-plaintiff-confidential-information-form.pdf,,
+form_6_categories,,dv,,
+form_7_title,-1,209A Defendant Information Form,,
+form_7_desc,,"Plaintiff can use this form to submit Defendant's information including addresses, birthdate, physical characteristics, social security number, car make and license plate, etc. so that police can locate and serve Defendant with restraining order. ",,
+form_7_link,,,,
+form_7_base_pdf,,https://www.mass.gov/files/documents/2016/08/xf/258e-defendant-information-fa-ha-5re.pdf,,
+form_7_categories,,dv,,
+form_8_title,-1,Motion for Impoundment,,
+form_8_desc,,Contains request for court to impound Plaintiff's information such as residential/work/school addresses so Defendant does not have access to it.,,
+form_8_link,,,,
+form_8_base_pdf,,https://www.masslegalhelp.org/domestic-violence/legal-forms/sample-motion-for-impoundment-affidavit.pdf,,
+form_8_categories,,dv,,
+form_9_title,-1,209A Plaintif's Motion to Modify or Terminate Abuse Prevention Order,,
+form_9_desc,,"If you asked the court for a 209A Abuse Prevention Order, you are the plaintiff. Use this form to ask the court to change your restraining order or end it. ",,
+form_9_link,,,,
+form_9_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8c829c43304d8fa27a4f31/3786ad7715e0e0e1ed786f2aab1809fc/plaintiff_s_motion_to_modify_209A.pdf,,
+form_9_categories,,dv,,
+form_10_title,-1,209A Defendant's Motion to Modify or Terminate Abuse Prevention Order,,
+form_10_desc,,"If you have a 209A Abuse Prevention Order that tells you to stop abusing someone, you are the defendant. Use this form to ask the court to change the order or end it. ",,
+form_10_link,,,,
+form_10_base_pdf,,https://www.mass.gov/files/documents/2016/08/xb/fa-14.pdf,,
+form_10_categories,,dv,,
+form_11_title,-1,209A Affidavit,,
+form_11_desc,,Allows the Plaintiff to make a sworn statement regarding the circumstances of abuse. Form goes with the 209A Plaintiff's Complaint,,
+form_11_link,,,,
+form_11_base_pdf,,,,
+form_11_categories,,dv,,
+form_12_title,-1,Application for Protection from Harassment (G.L. c. 258E),,
+form_12_desc,,"<p>This application asks the court for an order to protect you from criminal harassment, stalking, and sexual assault. The court can order the person who has abused or harassed you: not to contact you, to stay away from your homw and work, and to compensate you for your losses resulting from their harrassment. You can ask the court to make this order right away with no notice to the person who harassed you if it is likely that notice will put you in further danger of abuse or harassment.  You do not have to have any kind of relationship with the person who harassed or abused you. Forms included are:</p>
+<ol>
+<li>Complaint for Protection from Harassment</li>
+<li>An Affidavit you write that describes the harassment or abuse you suffered and why you need the court order,</li>
+<li>Plaintiff Confidential Information Form that gives the court your addresses and ways to contact you while keeping this information from the public,</li>
+<li>Defendant Information Form to help the police find, identify and give the person who abused you a copy of the order and notice about the next hearing.</li>
+<li>And  if you need it, a Motion to Impound so you can keep information on your application away from the public and some people who normally can see it:</li>
+<ol>",,
+form_12_link,,,,
+form_12_base_pdf,,https://www.mass.gov/doc/gl-c-258e-harassment-prevention-order-application-forms/download,,
+form_12_categories,,dv,,
+form_13_title,-1,258E Harrassment Intake Form,,
+form_13_desc,,"<p>If you or the person who is harassing or abusing you is under 18, you must include this form with your Application for Protection from Harassment, 258E.  The form gives the court:
+<ol>
+<li>your name and birthdate if you are under 18,</li>
+<li>the name and birthdate of the person who has been abusing you, if they are under 18 and</li>
+<li>if either or both of you are 18, contact information for your parents.</li>
+<ol>
+</p>",,
+form_13_link,,,,
+form_13_base_pdf,,https://www.mass.gov/doc/258e-harassment-intake-jv-125/download,,
+form_13_categories,,dv,,
+form_14_title,-1,209A Affidavit for Filing Out-of-State Protective Order,,
+form_14_desc,,"Use this Affidavit to register a protective order you have from another state. When you register your out-of-state order in Massachusetts, you must swear that another state made this order to protect you from the person who was abusing you.",,
+form_14_link,,,,
+form_14_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e961aebc898e9643f769240/3982dd84a39741c1901868fc88320dcf/209a-258e-outofstateaffidavit.pdf,,
+form_14_categories,,dv,,
+form_15_title,-1,209A Petition Relative to Domesticated Animals,,
+form_15_desc,,"Contains petition for Plaintiff requesting that the court order an abuse prevention order preventing Defendant from abusing a domesticated animal, and that Plaintiff be given possession of the animal",,
+form_15_link,,,,
+form_15_base_pdf,,https://drive.google.com/file/d/1p0Wf7pMMw2rmjKjq0rpKlp7kKcF1G-Ej/view,,
+form_15_categories,,dv,,
+form_16_title,0,Affidavit Disclosing Care or Custody Proceeding,1,Declaración jurada de atención o procedimiento de custodia
+form_16_desc,,"<p>Use the Affidavit Disclosing Care or Custody to tell the court if there are already any court orders about your child. It also tells the court if any judge is making decisions about your child now.
+Include cases in and outside of Massachusetts. When you sign the form, you swear that the information on it is true and complete as far as you know.</p>
+<p>If you are seeking a Restraining Order (209A) this form is already part of that packet and can be completed there. This is the stand-alone form.</p> ",,"<p> Use la Declaración jurada de atención o custodia para informarle a la corte si ya hay órdenes judiciales sobre su hijo. También le dice a la corte si algún juez está tomando decisiones sobre su hijo ahora.
+Incluya casos dentro y fuera de Massachusetts. Cuando firmas el formulario, juras que la información que contiene es verdadera y completa hasta donde sabes. </p>
+<p> Si está buscando una orden de restricción (209A), este formulario ya forma parte de ese paquete y puede completarse allí. Esta es la forma independiente. </p>"
+form_16_link,,https://apps.suffolklitlab.org/start/affofcare,,
+form_16_base_pdf,,https://www.mass.gov/files/documents/2017/09/01/ocaj-aff-care-custody.pdf,,
+form_16_categories,,"dv, family",,
+form_17_title,-1,Plaintiff's Affidavit in Support of a Request for Child Support Order,,
+form_17_desc,,Allows Plaintiff to make sworn statement in support of child support order regarding Plaintiff's and Defendant's respective income and expenses,,
+form_17_link,,,,
+form_17_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e83a4696908d60c0667a4f1/11b3c19a54c46cc52fbb42f5c3928f2e/Plaintiff_Affidavit_in_support_of_request_for_child_support_order_-_Laura_Gal.pdf,,
+form_17_categories,,family,,
+form_18_title,-1,Defendant's Affidavit in Support of a Request for Child Support Order,,
+form_18_desc,,Allows Defendant to make sworn statement in connection with a child support order regarding Defendant's and Plaintiff's respective income and expenses,,
+form_18_link,,,,
+form_18_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e83a3d6e95e4f3136304ec6/c02ff18a332676944c0f604a739d5e43/209A_defendant_s_child_support_affidavit_-_Laura_Gal.pdf,,
+form_18_categories,,family,,
+form_19_title,-1,Proposed Orders - Temporary Orders,,
+form_19_desc,,"Contains proposed temporary orders for child custody, child support, parenting time, and the like",,
+form_19_link,,,,
+form_19_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b61cdd687ce310b1c8989/608f75b083e07675c56043de8bb4db4f/Proposed_Order.pdf,,
+form_19_categories,,family,,
+form_20_title,-1,Generic Motion,,
+form_20_desc,,"Generic Family Law motion form for a variety of family law related issues. Can be used for child support, temporary orders, custody, etc.",,
+form_20_link,,,,
+form_20_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b60ccebe1121b06e5e43a/36ea1ab1a7a1146c486214d5f2fc02e1/Motion_Form_-_Generic.pdf,,
+form_20_categories,,family,,
+form_21_title,0,Complaint for Contempt,1,Queja por desprecio
+form_21_desc,,"Contains complaint for contempt against Defendant for failing to comply with order of child support, alimony, parenting time, etc. ",,"Contiene una queja por desacato contra el Demandado por no cumplir con la orden de manutención infantil, pensión alimenticia, tiempo de crianza, etc."
+form_21_link,,,,
+form_21_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b5f7095f9447a484a8c10/aa8e191fda204b5e956d8dd46a201e2a/cjd103_print_to_Adobe_PDF_labels_added.pdf,,
+form_21_categories,,family,,
+form_22_title,-1,Financial Statement - short form,1,
+form_22_desc,,"<p>The Probate and Family Courts requires you to fill out a Financial Statement in:
+<ul>
+<li>divorce cases,</li>
+<li>separate support cases,</li>
+<li>custody cases,</li>
+<li>child support cases, and</li>
+<li>similar family law cases.</li>
+</ul></p>
+<p>The form has two purposes:
+<ul>
+<li>for you to explain your financial situation to the court, and</li>
+<li>for each party in the case to explain his or her financial situation to the other party.</li>
+</ul></p>
+<p>The Financial Statement is an extremely important court document. When you sign the Financial Statement you swear that you are telling the truth.</li>
+<p> You can use the Financial Statement short form if your income is less than $75,000/year, before taxes.</p>",,
+form_22_link,,,,
+form_22_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b62081344926de7f94986/ce3027d1800f229ac5a9318711015086/Financial_Statement_-_Short_Form.pdf,,
+form_22_categories,,family,,
+form_23_title,0,Marriage without Delay,1,Matrimonio sin demora
+form_23_desc,,"Ask the court to skip the 3 day waiting period when you apply for a Marriage License. Before you file a Marriage Without Delay, call the clerk in the  town where you want to get married. Ask the clerk what you need to apply for a Marriage License. ",,Contiene una petición de matrimonio inmediato por parte de la corte.
+form_23_link,,,,
+form_23_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e95febc75a5bd879f38c22b/62794ea2ad31037afa34589da54a0e5c/4._Marriage_without_Delay.pdf,,
+form_23_categories,,family,,
+form_24_title,-1,Blank Affidavit Form,,
+form_24_desc,,affidavit form for general famly law matters,,
+form_24_link,,,,
+form_24_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b605858bd8c57e43bcf99/35e38bb6294fe05cbcf1838a4f9f0356/Blank_Affidavit.pdf,,
+form_24_categories,,family,,
+form_25_title,-1,DOR Application Form,,
+form_25_desc,,"This is an application form for services from the Massachusetts Department of Revenue, Child Support Enforcement Division. It is to be completed after entry of a child support order by the court ",,
+form_25_link,,,,
+form_25_base_pdf,,,,
+form_25_categories,,family,,
+form_26_title,-1,Child Support Guidelines Worksheet,1,
+form_26_desc,,"<p>Judges use the Child Support Guidelines Worksheet to figure out how much child support to order.</p>
+<p>On the Worksheet each parent puts their:
+<ul>
+<li>“gross weekly income,”</li>
+<li>child care payments,</li>
+<li>health care coverage payments,</li>
+<li>dental and vision insurance payments,</li>
+<li>other child support payments, and</li>
+<li>The number of children the child support order will cover.</li>
+</ul></p>
+<p>The Worksheet calculates the amount of income each parent has for supporting your children and a basic amount of child support.</p>",,
+form_26_link,,,,
+form_26_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b6104e794dc7a5fa5b663/db37745bc698f4c4df99b5d487e810a0/Child_Support_Guidelines_Worksheet.pdf,,
+form_26_categories,,family,,
+form_27_title,-1,Military Affidavit,,
+form_27_desc,,allows party to make a sworn statement that they are in the military. Used for guardianship and family law members,,
+form_27_link,,,,
+form_27_base_pdf,,,,
+form_27_categories,,"family, guardianship",,
+form_28_title,-1,Motion of Temporary Appointment for Guardian of a Minor,,
+form_28_desc,,contains motion for temporary appointment of guardian for a minor. Used for emergency circumstances where delay could cause harm to the minor,,
+form_28_link,,,,
+form_28_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e0a20dc20569557d6b5b/bfe79bb0d5ec6e55f1fd68e82f9b6ac3/guardianship_minor_temp_order_-_Laura_Gal.pdf,,
+form_28_categories,,"family, guardianship",,
+form_29_title,0,Petition for Appointment of Guardianship of Minor,1,Petición de Nombramiento de Tutela de Menor
+form_29_desc,,"Contains petition for appointment of a guardian for a minor. Petitioner must provide information about the minor, about petitioner, and about the minor's biological parents, in addition to providing reasons that the minor needs a guardian.",,"Contiene petición de nombramiento de un tutor para un menor. El peticionario debe proporcionar información sobre el menor, sobre el peticionario y sobre los padres biológicos del menor, además de proporcionar los motivos por los cuales el menor necesita un tutor."
+form_29_link,,,,
+form_29_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e07a790e8b169901e2ff/34b7a6434e21326f3d88d5eefa8c513e/petition_guardianship_minor_-_Laura_Gal.pdf,,
+form_29_categories,,"family, guardianship",,
+form_30_title,-1,Petition for Removal of Guardian,,
+form_30_desc,,"contains a petition for an interested party, the minor, or minor's parent's to request removal of a guardian",,
+form_30_link,,,,
+form_30_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e0982ad52e16a687e38c/27a67bd54457526835f61f849e88e5b1/guardianship_removal_petition_-_Laura_Gal.pdf,,
+form_30_categories,,"family, guardianship",,
+form_31_title,-1,Request for Counsel,,
+form_31_desc,,contains request for an attorney to be appointed for the minor. Can be requested by the minor (if 14+ years of age) or by an interested party,,
+form_31_link,,,,
+form_31_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e0703eca3a2fe80aec73/4b0d19b151316f10eda3b83b089ab69a/guardianship_minor_request_for_counsel_-_Laura_Gal.pdf,,
+form_31_categories,,"family, guardianship",,
+form_32_title,-1,Consent or Nomination by Minor,,
+form_32_desc,,Contains consent form for minors 14+ years of age to either grant/deny consent to appointment of a guardian or nominate a guardian,,
+form_32_link,,,,
+form_32_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e08d0fe08a3a79dcd956/8ec95f58f94eb7b3a537ad2f3bbe668f/guardianship_minor_consent_child_-_Laura_Gal.pdf,,
+form_32_categories,,"family, guardianship",,
+form_33_title,-1,Waiver and Consent to Petition for Guardianship of a Minor,,
+form_33_desc,,Contains consent form for parent/interested party of a minor to acknowledge that a petition for guardian for the minor has been made,,
+form_33_link,,,,
+form_33_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b54ad5092f572c5b9038c/434bc81b8f071872a391860809493fe5/guardianship_minor_consent_-_Laura_Gal.pdf,,
+form_33_categories,,"family, guardianship",,
+form_34_title,-1,Bond,,
+form_34_desc,,"form for a fiduciary to post bond (for purposes of MassAccess, probably just guardians and conservators, but could also be used in probate for executor/administrator/trustee)",,
+form_34_link,,,,
+form_34_base_pdf,,,,
+form_34_categories,,"family, guardianship",,
+form_35_title,-1,Petition for Appointment of Conservator for Disabled Person or For Single Transaction,,
+form_35_desc,,contains a petition for appointment of a conservator for a minor or disabled adult,,
+form_35_link,,,,
+form_35_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e95fde856a75d8e1f09b5b5/28911336bc6f1814a5735e62e34e34d7/Petition_for_Conservator_130.pdf,,
+form_35_categories,,"family, guardianship",,
+form_36_title,0,Affidavit of Indigency,1,Declaración jurada de indigencia
+form_36_desc,,"<p>If you need to go to court, but you cannot afford the fees and charges, you may not have to pay them. The court can “waive” the fees, or ask the state to pay the normal court fees.</p>
+
+<p>The court can also waive or ask the state to pay for “extra” fees.</p>
+
+<p>This form tells the court you cannot afford the fees related to your case.</p>
+
+<p>If the clerk or a judge approves the form, you will not have to pay.</p>",,Permite al solicitante hacer una declaración jurada de que son indigentes y que deben exonerarse de los honorarios del tribunal.
+form_36_link,,https://apps.suffolklitlab.org/start/indigency,,
+form_36_base_pdf,,https://www.mass.gov/doc/affidavit-of-indigency/download,,
+form_36_categories,,other,,
+form_37_title,0,Supplement to Affidavit of Indigency,1,Suplemento a la Declaración Jurada de Indigencia
+form_37_desc,,"<p>Use this form when you file the Affidavit of Indigency if:
+<ul><li>You do not get the needs based benefits listed in Section A of Affifdavit of Indigency, or</li>
+<li>your income is too high to check Box B on the Affidavit.</li>
+</ul></p>
+<p> If you need to check Box C on the Affidavit of Indigency, you need this supplemental form, also. It asks about your income and expenses to show the court that you cannot afford to  pay court fees and costs.</p>",,Debe presentarse con una Declaración Jurada de Indigencia donde el solicitante marque la casilla C en la Declaración Jurada de Indigencia (no puede pagar las tarifas / costos sin verse privado de las necesidades de la vida). Contiene información financiera para completar la solicitud.
+form_37_link,,,,
+form_37_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b6c7d2036cd1560d7db07/9d0e3a2ac80b9583218dbfc8a8a6ea2c/AOI_Supplement.pdf,,
+form_37_categories,,other,,
+form_38_title,-1,Notice of Limited Appearance,,
+form_38_desc,,,,
+form_38_link,,https://www.mass.gov/files/documents/2019/02/01/jud-Notice_of_Limited_Appearance_31jan2019.pdf,,
+form_38_base_pdf,,,,
+form_38_categories,,all,,
+form_39_title,10,Application for a 209A Restraining Order,,Solicitud de una orden de restricción 209A
+form_39_desc,,"<p>Ask the court to order a member of your family, household, or someone you date to stop abusing you.  You can also ask the court to order someone you <b>were</b> in a relationship with to stop abusing you. People use different names for this court order. It is an Abuse Prevention Order, a 209A, a Protection from Abuse Order, a Restraining Order, or an injunction. The application includes up to 4-5 forms you must complete:</p>
+<ol>
+<li>Complaint for Protection from Abuse (G.L. c. 209A) Page 1,</li>
+<li>Complaint for Protection from Abuse (G.L. c. 209A) Page 2. You must complete this form if you have children under 18,</li>
+<li>An Affidavit you write that describes the abuse and why you need the court order, </li>
+<li>Plaintiff Confidential Information Form that gives the court your addresses and ways to contact you while keeping this information from the public,</li>
+<li>Defendant Information Form to help the police find, identify and give the person who abused you a copy of the order and notice about the next hearing.</li>
+</ol>
+<p>And 3 more forms, if you need them:</p>
+<ol>
+<li>Motion to Impound so you can keep information on your application away from the public and some people who normally can see it,</li>
+<li>Affidavit Disclosing Care or Custody Proceeding that tells the court about any other court cases your children have ever been involved in, and</li>
+<li>Plaintiff’s Affidavit in Support of Request for Child Support Order which gives the court your financial information and the defendant's if you are asking the court to order child support.</li>
+</ol>",,"<p> Pídale a la corte que ordene a un miembro de su familia, hogar o alguien con quien sale para que deje de abusar de usted. También puede pedirle a la corte que ordene a alguien con quien <b>estuvo</b> en una relación para detener abusar de usted. Las personas usan diferentes nombres para esta orden judicial. Es una orden de prevención de abuso, una orden 209A, una orden de protección contra el abuso, una orden de restricción o una orden judicial. La solicitud incluye hasta 4-5 formularios que debe completar:< / p>
+<ol>
+<li> Queja por protección contra el abuso (G.L. c. 209A) Página 1, </li>
+<li> Queja para Protección contra el Abuso (G.L. c. 209A) Página 2. Debe completar este formulario si tiene hijos menores de 18 años, </li>
+<li> Una declaración jurada que escriba que describa el abuso y por qué necesita la orden judicial, </li>
+<li> Formulario de información confidencial del demandante que proporciona sus direcciones y formas de contactarlo ante el tribunal mientras mantiene esta información del público, </li>
+<li> Formulario de información del acusado para ayudar a la policía a encontrar, identificar y entregar a la persona que abusó de usted una copia de la orden y un aviso sobre la próxima audiencia. </li>
+</ol>
+<p> Y 3 formularios más, si los necesita: </p>
+<ol>
+<li> Motion to Impound para que pueda mantener la información de su aplicación lejos del público y de algunas personas que normalmente pueden verla, </li>
+<li> Declaración jurada que divulga la atención o el proceso de custodia que informa al tribunal sobre cualquier otro caso judicial en el que sus hijos hayan estado involucrados, y </li>
+<li> Declaración jurada del demandante en apoyo de la solicitud de orden de manutención de menores que le proporciona al tribunal su información financiera y al demandado si solicita al tribunal que ordene manutención de menores. </li>
+</ol>"
+form_39_link,,http://apps.suffolklitlab.org/start/209a,,
+form_39_base_pdf,,,,
+form_39_categories,,dv,,
