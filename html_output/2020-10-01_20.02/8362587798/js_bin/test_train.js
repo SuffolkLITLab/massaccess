@@ -251,12 +251,12 @@ function make_query() {
             returned_id = []
             $('#response').html("<h2>It looks like you may be looking for help with...</h2>")
             data["labels"].forEach(function(element) {
-              $('#response').html($('#response').html()+"<div style=\"margin:15px 0px; padding:10px 5px 5px 5px; border-top: solid 1px #555;\"><table width=\"100%\"><tr><td width=\"1%\" valign=\"top\"><div style=\"float:left;border-radius: 8px;border: 2px solid #aaa;margin:0 15px 0px 0px;background-image:url('images/"+find_img(element["name"])+"');background-position: center;    background-size: 60px 60px;\"><img src=\"../images/space.gif\" width=\"60px\" height=\"60px\"></div></td><td><span class=\"subtitle\" style=\"float:right;margin:0px 0 4px 0;font-weight: normal;\"><a href=\"https://spot.suffolklitlab.org/performance/#uncertainty\" target=\"_blank\">How sure?</a>&nbsp;&nbsp;"+Math.round(element["lower"]*100)+"%-"+Math.round(element["upper"]*100)+"%</span><span style=\"font-weight: bold; font-size:18px;\">"+element["name"]+"</span><p>"+find_des(element["id"])+"</p><p>Help me find relevant: (1) <a href=\"https://www.qnamarkup.net/i/?source=https://raw.githubusercontent.com/SonyaCoding/LSC_Project/master/qna/civ/"+jur_picked+".txt#"+element["id"]+"\" target=\"_blank\">attorneys</a>; (2) <a href=\"https://massaccess.suffolklitlab.org/"+find_CL(element["name"])+"\" target=\"_blank\">interactive self-help</a>; (3) <a href=\"https://www.google.com/search?q=legal+help+with+"+encodeURI(element["name"])+"+issues+in+"+find_name(jur_picked)+"+site%3A*.org+OR+site%3A*."+jur_picked+".us+OR+site%3A*.gov\" target=\"_blank\">resources on the web</a>.</p></td></tr></table></div>")
+              $('#response').html($('#response').html()+"<div style=\"margin:15px 0px; padding:10px 5px 5px 5px; border-top: solid 1px #555;\"><table width=\"100%\"><tr><td width=\"1%\" valign=\"top\"><div style=\"float:left;border-radius: 8px;border: 2px solid #aaa;margin:0 15px 0px 0px;background-image:url('images/"+find_img(element["name"])+"');background-position: center;    background-size: 60px 60px;\"><img src=\"images/space.gif\" width=\"60px\" height=\"60px\"></div></td><td><span class=\"subtitle\" style=\"float:right;margin:0px 0 4px 0;font-weight: normal;\"><a href=\"https://spot.suffolklitlab.org/performance/#uncertainty\" target=\"_blank\">How sure?</a>&nbsp;&nbsp;"+Math.round(element["lower"]*100)+"%-"+Math.round(element["upper"]*100)+"%</span><span style=\"font-weight: bold; font-size:18px;\">"+element["name"]+"</span><p>"+find_des(element["id"])+"</p><p>Help me find relevant: (1) <a href=\"https://www.qnamarkup.net/i/?source=https://raw.githubusercontent.com/SonyaCoding/LSC_Project/master/qna/civ/"+jur_picked+".txt#"+element["id"]+"\" target=\"_blank\">attorneys</a>; (2) <a href=\"https://massaccess.suffolklitlab.org/"+find_CL(element["name"])+"\" target=\"_blank\">interactive self-help</a>; (3) <a href=\"https://www.google.com/search?q=legal+help+with+"+encodeURI(element["name"])+"+issues+in+"+find_name(jur_picked)+"+site%3A*.org+OR+site%3A*."+jur_picked+".us+OR+site%3A*.gov\" target=\"_blank\">resources on the web</a>.</p></td></tr></table></div>")
               returned_id.push(element["id"]);
               console.log(element);
               if (element["children"]) {
                 element["children"].forEach(function(child) {
-                  $('#response').html($('#response').html()+"<div style=\"margin:15px 0px; padding:10px 5px 5px 5px; border-top: solid 1px #555;\"><table width=\"100%\"><tr><td width=\"1%\" valign=\"top\"><div style=\"float:left;border-radius: 8px;border: 2px solid #aaa;margin:0 15px 0px 0px;background-image:url('images/"+find_img(child["name"])+"');background-position: center;    background-size: 60px 60px;\"><img src=\"../images/space.gif\" width=\"60px\" height=\"60px\"></div></td><td><span class=\"subtitle\" style=\"float:right;margin:0px 0 4px 0;font-weight: normal;\"><a href=\"https://spot.suffolklitlab.org/performance/#uncertainty\" target=\"_blank\">How sure?</a>&nbsp;&nbsp;"+Math.round(child["lower"]*100)+"%-"+Math.round(child["upper"]*100)+"%</span><span style=\"font-weight: bold; font-size:18px;\">"+element["name"]+" &raquo; "+child["name"]+"</span><p>"+find_des(child["id"])+"</p><p>Help me find relevant: (1) <a href=\"https://www.qnamarkup.net/i/?source=https://raw.githubusercontent.com/SonyaCoding/LSC_Project/master/qna/civ/"+jur_picked+".txt#"+child["id"]+"\" target=\"_blank\">attorneys</a>; (2) <a href=\"https://massaccess.suffolklitlab.org/"+find_CL(child["name"])+"\" target=\"_blank\">interactive self-help</a>; (3) <a href=\"https://www.google.com/search?q=legal+help+with+"+encodeURI(child["name"])+"+issues+in+"+find_name(jur_picked)+"+site%3A*.org+OR+site%3A*."+jur_picked+".us+OR+site%3A*.gov\" target=\"_blank\">resources on the web</a>.</p></td></tr></table></div>")
+                  $('#response').html($('#response').html()+"<div style=\"margin:15px 0px; padding:10px 5px 5px 5px; border-top: solid 1px #555;\"><table width=\"100%\"><tr><td width=\"1%\" valign=\"top\"><div style=\"float:left;border-radius: 8px;border: 2px solid #aaa;margin:0 15px 0px 0px;background-image:url('images/"+find_img(child["name"])+"');background-position: center;    background-size: 60px 60px;\"><img src=\"images/space.gif\" width=\"60px\" height=\"60px\"></div></td><td><span class=\"subtitle\" style=\"float:right;margin:0px 0 4px 0;font-weight: normal;\"><a href=\"https://spot.suffolklitlab.org/performance/#uncertainty\" target=\"_blank\">How sure?</a>&nbsp;&nbsp;"+Math.round(child["lower"]*100)+"%-"+Math.round(child["upper"]*100)+"%</span><span style=\"font-weight: bold; font-size:18px;\">"+element["name"]+" &raquo; "+child["name"]+"</span><p>"+find_des(child["id"])+"</p><p>Help me find relevant: (1) <a href=\"https://www.qnamarkup.net/i/?source=https://raw.githubusercontent.com/SonyaCoding/LSC_Project/master/qna/civ/"+jur_picked+".txt#"+child["id"]+"\" target=\"_blank\">attorneys</a>; (2) <a href=\"https://massaccess.suffolklitlab.org/"+find_CL(child["name"])+"\" target=\"_blank\">interactive self-help</a>; (3) <a href=\"https://www.google.com/search?q=legal+help+with+"+encodeURI(child["name"])+"+issues+in+"+find_name(jur_picked)+"+site%3A*.org+OR+site%3A*."+jur_picked+".us+OR+site%3A*.gov\" target=\"_blank\">resources on the web</a>.</p></td></tr></table></div>")
                   returned_id.push(child["id"]);
                   console.log(child);
                 });
@@ -901,7 +901,7 @@ nsmi_translations = {
                     "name": "Domestic Violence and Abuse",
                     "description": "",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "dv",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   }
@@ -1127,7 +1127,7 @@ nsmi_translations = {
     "name": "Family",
     "description": "This category covers issues that arise within a family, like divorce, adoption, name change, guardianship, domestic violence, child custody, and other issues.",
     "name_avvo": "family-lawyer",
-    "name_CL": "Family",
+    "name_CL": "family",
     "img": "court.jpg",
     "img_cred": "https://flic.kr/p/7hgoPp",
     "children": [
@@ -1136,7 +1136,7 @@ nsmi_translations = {
                     "name": "Juvenile Justice",
                     "description": "About minors who are in criminal proceedings, or dealing with discipline in school, including getting advocates and support.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1145,7 +1145,7 @@ nsmi_translations = {
                     "name": "Guardianship and Conservatorship",
                     "description": "About getting decision-making authority over an adult or child's funds, health care, school enrollment, estate, and other concerns.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1154,7 +1154,7 @@ nsmi_translations = {
                     "name": "Adoption",
                     "description": "About adopting a child or adult, challenging an adoption, and other family members' rights around an adoption.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1163,7 +1163,7 @@ nsmi_translations = {
                     "name": "Birth Certificates and Identity Documents",
                     "description": "About getting certificates, cards, licenses, and other official documentation to prove something about yourself or someone else.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1172,7 +1172,7 @@ nsmi_translations = {
                     "name": "Child Custody and Parenting Plans",
                     "description": "About making child custody orders and parenting plans, modifying it and enforcing it, getting visitation for different family members, and dealing with abductions by a family member.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1181,7 +1181,7 @@ nsmi_translations = {
                     "name": "Child Support",
                     "description": "About creating child support orders, modifying and enforcing them, paying for other children's' expenses, and claiming children's expenses on taxes.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1190,7 +1190,7 @@ nsmi_translations = {
                     "name": "Divorce, Separation, and Annulment",
                     "description": "About filing for divorce, separation, or annulment, getting spousal support, splitting money and property, and following the court processes.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1199,7 +1199,7 @@ nsmi_translations = {
                     "name": "Domestic Violence and Abuse",
                     "description": "About getting protective orders, enforcing them, understanding abuse, reporting abuse, and getting resources and status if there is abuse.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "dv",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1208,7 +1208,7 @@ nsmi_translations = {
                     "name": "Emancipation",
                     "description": "About a minor who requests to be emancipated from their parents, contesting it, rights afterward, and other situations of children (including adult children) breaking away from their parents.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1217,7 +1217,7 @@ nsmi_translations = {
                     "name": "Foster Care",
                     "description": "About getting foster care for children, and family members' rights in a foster care situation.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1226,7 +1226,7 @@ nsmi_translations = {
                     "name": "Marriages and civil unions",
                     "description": "About getting married or forming civil unions, getting a certificate to prove the union, and changing names for it.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1235,7 +1235,7 @@ nsmi_translations = {
                     "name": "Name or Gender Change",
                     "description": "About changing one's name or gender assignment.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1244,7 +1244,7 @@ nsmi_translations = {
                     "name": "Paternity",
                     "description": "About establishing paternity of a child, or responding to a paternity case filed against one.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1253,7 +1253,7 @@ nsmi_translations = {
                     "name": "Parental Rights (and Termination)",
                     "description": "About terminating parental rights, reporting child abuse or neglect, prisoners' parental rights, and reunification services for parents and children.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1262,7 +1262,7 @@ nsmi_translations = {
                     "name": "Elder Abuse",
                     "description": "About financial or physical abuse of elders, and evictions and rental house issues for the elderly.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1271,7 +1271,7 @@ nsmi_translations = {
                     "name": "Family and child support for Native Americans",
                     "description": "About divorce and custody issues for Native Americans, and the Indian Child Welfare Act.",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   }
@@ -1567,7 +1567,7 @@ nsmi_translations = {
                     "name": "Immigration options for victims of domestic violence",
                     "description": "",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "dv",
                     "img": "court.jpg",
                     "img_cred": "https://flic.kr/p/7hgoPp"
                   },
@@ -1715,7 +1715,7 @@ nsmi_translations = {
                     "name": "Family and child support for Native Americans",
                     "description": "",
                     "name_avvo": "",
-                    "name_CL": "",
+                    "name_CL": "family",
                     "img": "window_rock.jpg",
                     "img_cred": "https://flic.kr/p/fKXvwT"
                   },
