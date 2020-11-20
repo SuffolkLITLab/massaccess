@@ -208,7 +208,8 @@ function make_query() {
     jur_picked = "0";
   }
 
-  if ($('#result__words').html()>=5) {
+  // this was the word limit line
+  if ($('#result__words').html()>=1) {
 
     if (jur_picked != 0) {
       $('#response').hide();
@@ -293,7 +294,7 @@ function make_query() {
     }
   } else {
      $('#text').css('background-color', '#ffe787');
-     alert("Your reply must be at least five words long.");
+     alert("Your reply should be at least five words long and must be at least one word long.");
      document.getElementById('text').focus();
    }
 

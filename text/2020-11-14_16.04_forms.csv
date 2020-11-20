@@ -1,0 +1,451 @@
+Variable,counts,English,anchor,list,Spanish,
+in_progress_msg,,"We are still in the process of creating an interactive version of this form (based on <a href=""%spdfs/%s"" target=""_blank"" onClick=""gtag('event', 'download', {'event_category':'pdf', 'event_label':'%s'});"">this English PDF</a>).",,,,"For each new form: 
+(1) create five new rows at the bottom of the sheet: form_n_title, form_n_desc, form_n_link, form_n_base_pdf,  and form_n_categories, where n is the next number in the list of forms (e.g., if you added these rows after ones including form_10_link you would use 11.
+(2) Add a ""-1: to the ""counts"" column in the title row. Then add a title description in the appropriate rows under the English Column. 
+(3) After consulting the categories/tags tab for available tags, add all that apply to the category row. "
+form_1_title,10,Request for a Temporary Restraining Order,TRO,,Orden de restricción temporal,
+form_1_desc,,"<p>Ask the judge to order your landlord to stop doing things that are illegal -  like locking you out, shutting off your utilities, refusing to make emergency repairs, and other things that stop you from feeling like your home is your own. This last is called,  ""Interfering with your right to quiet enjoyment.""</p>
+<p>The name of the form is VERIFIED COMPLAINT AND MOTIONS FOR TEMPORARY RESTRAINING ORDER AND PRELIMINARY INJUNCTION FOR PROTECTION FROM UNLAWFUL EVICTION, UTILITY TERMINATION, OR BREACH OF QUIET ENJOYMENT G.L. c. 186, §14</p>",,,"Contiene quejas y solicitudes de órdenes temporales y permanentes, requerimiento judicial preliminar necesario para buscar alivio inmediato para cierres patronales, reparaciones de emergencia, cortes de servicios públicos y similares.",
+form_1_link,,https://apps.suffolklitlab.org/start/housing_tro,,,,
+form_1_base_pdf,,https://www.masslegalhelp.org/housing/lt1-form-15-tro.pdf,,,,
+form_1_categories,,housing,,,,
+form_2_title,-1,Housing Stay of Execution,,,,
+form_2_desc,,"<p>If you lost your eviction case or agreed in court to a judgment to move out and you need more time to move, you can ask a judge to postpone your eviction.</p>
+<p>You have 10 days to file this form. Sometimes you can take longer to file, but the longer you wait, the harder it is to get the order.</p>
+<p>A judge can allow you to stay a maximum of 6 months—or 12 months if you or someone in your household is over 60 or has a physical or mental disability.</p>",,,,
+form_2_link,,,,,,
+form_2_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e82560ff37c0b1eb34c1be1/d786fecc38a35ab8dbc12b811b163ea8/lt1-booklet-8-stay_(original).pdf,,,,
+form_2_categories,,housing,,,,
+form_3_title,-1,Tenant Petition Form,,,,
+form_3_desc,,"<p>Tenants can use this petition to ask the court to order your landlord to: <ul><li>Make repairs, especially emergency repairs, and</li><li>lower your rent to the fair rental value while the landlord makes repairs.</li></ul></p><p>You can also use this form to ask the court for a receiver. Receiverships are complicated. Try to talk to lawyer if you need to ask the court for a receiver.</p> ",,,,
+form_3_link,,,,,,
+form_3_base_pdf,,https://www.masslegalhelp.org/housing/lt1-form-14-tenant-petition.pdf,,,,
+form_3_categories,,housing,,,,
+form_4_title,-1,209A Complaint Page 1,,,,
+form_4_desc,,"Contains Page 1 of a complaint for protection from abuse and requests that the court order the defendant not to abuse the plaintiff, contact the plaintiff, to remain away from plaintiff's residence/workplace/school, to pay compensation to plaintiff, and the like",,,,
+form_4_link,,,,,,
+form_4_base_pdf,,https://www.masslegalhelp.org/domestic-violence/legal-forms/sample-209a-complaint-p1-w-affidavit.pdf,,,,
+form_4_categories,,dv,,,,
+form_5_title,-1,209A Complaint Page 2,,,,
+form_5_desc,,Contains Page 2 of a complaint for protection from abuse regarding issues of child abuse,,,,
+form_5_link,,,,,,
+form_5_base_pdf,,https://www.mass.gov/doc/complaint-for-protection-from-abuse-gl-c-209a-page-2/download,,,,
+form_5_categories,,dv,,,,
+form_6_title,-1,209A Plaintiff Confidential Information Form,,,,
+form_6_desc,,"Form requesting that certain information be kept confidential from Defendant, including home/work/school addresses.",,,,
+form_6_link,,,,,,
+form_6_base_pdf,,https://www.masslegalhelp.org/domestic-violence/legal-forms/sample-plaintiff-confidential-information-form.pdf,,,,
+form_6_categories,,dv,,,,
+form_7_title,-1,209A Defendant Information Form,,,,
+form_7_desc,,"Plaintiff can use this form to submit Defendant's information including addresses, birthdate, physical characteristics, social security number, car make and license plate, etc. so that police can locate and serve Defendant with restraining order. ",,,,
+form_7_link,,,,,,
+form_7_base_pdf,,https://www.mass.gov/files/documents/2016/08/xf/258e-defendant-information-fa-ha-5re.pdf,,,,
+form_7_categories,,dv,,,,
+form_8_title,-1,Motion for Impoundment,,,,
+form_8_desc,,Contains request for court to impound Plaintiff's information such as residential/work/school addresses so Defendant does not have access to it.,,,,
+form_8_link,,,,,,
+form_8_base_pdf,,https://www.masslegalhelp.org/domestic-violence/legal-forms/sample-motion-for-impoundment-affidavit.pdf,,,,
+form_8_categories,,dv,,,,
+form_9_title,-1,209A Plaintif's Motion to Modify or Terminate Abuse Prevention Order,,,,
+form_9_desc,,"If you asked the court for a 209A Abuse Prevention Order, you are the plaintiff. Use this form to ask the court to change your restraining order or end it. ",,,,
+form_9_link,,,,,,
+form_9_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8c829c43304d8fa27a4f31/3786ad7715e0e0e1ed786f2aab1809fc/plaintiff_s_motion_to_modify_209A.pdf,,,,
+form_9_categories,,dv,,,,
+form_10_title,-1,209A Defendant's Motion to Modify or Terminate Abuse Prevention Order,,,,
+form_10_desc,,"If you have a 209A Abuse Prevention Order that tells you to stop abusing someone, you are the defendant. Use this form to ask the court to change the order or end it. ",,,,
+form_10_link,,,,,,
+form_10_base_pdf,,https://www.mass.gov/files/documents/2016/08/xb/fa-14.pdf,,,,
+form_10_categories,,dv,,,,
+form_11_title,-1,209A Affidavit,,,,
+form_11_desc,,Allows the Plaintiff to make a sworn statement regarding the circumstances of abuse. Form goes with the 209A Plaintiff's Complaint,,,,
+form_11_link,,,,,,
+form_11_base_pdf,,,,,,
+form_11_categories,,dv,,,,
+form_12_title,-1,Application for Protection from Harassment (G.L. c. 258E),,,,
+form_12_desc,,"<p>This application asks the court for an order to protect you from criminal harassment, stalking, and sexual assault. The court can order the person who has abused or harassed you: not to contact you, to stay away from your homw and work, and to compensate you for your losses resulting from their harrassment. You can ask the court to make this order right away with no notice to the person who harassed you if it is likely that notice will put you in further danger of abuse or harassment.  You do not have to have any kind of relationship with the person who harassed or abused you. Forms included are:</p>
+<ol>
+<li>Complaint for Protection from Harassment</li>
+<li>An Affidavit you write that describes the harassment or abuse you suffered and why you need the court order,</li>
+<li>Plaintiff Confidential Information Form that gives the court your addresses and ways to contact you while keeping this information from the public,</li>
+<li>Defendant Information Form to help the police find, identify and give the person who abused you a copy of the order and notice about the next hearing.</li>
+<li>And  if you need it, a Motion to Impound so you can keep information on your application away from the public and some people who normally can see it:</li>
+<ol>",,,,
+form_12_link,,,,,,
+form_12_base_pdf,,https://www.mass.gov/doc/gl-c-258e-harassment-prevention-order-application-forms/download,,,,
+form_12_categories,,dv,,,,
+form_13_title,-1,258E Harrassment Intake Form,,,,
+form_13_desc,,"<p>If you or the person who is harassing or abusing you is under 18, you must include this form with your Application for Protection from Harassment, 258E.  The form gives the court:
+<ol>
+<li>your name and birthdate if you are under 18,</li>
+<li>the name and birthdate of the person who has been abusing you, if they are under 18 and</li>
+<li>if either or both of you are 18, contact information for your parents.</li>
+<ol>
+</p>",,,,
+form_13_link,,,,,,
+form_13_base_pdf,,https://www.mass.gov/doc/258e-harassment-intake-jv-125/download,,,,
+form_13_categories,,dv,,,,
+form_14_title,-1,209A Affidavit for Filing Out-of-State Protective Order,,,,
+form_14_desc,,"Use this Affidavit to register a protective order you have from another state. When you register your out-of-state order in Massachusetts, you must swear that another state made this order to protect you from the person who was abusing you.",,,,
+form_14_link,,,,,,
+form_14_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e961aebc898e9643f769240/3982dd84a39741c1901868fc88320dcf/209a-258e-outofstateaffidavit.pdf,,,,
+form_14_categories,,dv,,,,
+form_15_title,-1,209A Petition Relative to Domesticated Animals,,,,
+form_15_desc,,"Contains petition for Plaintiff requesting that the court order an abuse prevention order preventing Defendant from abusing a domesticated animal, and that Plaintiff be given possession of the animal",,,,
+form_15_link,,,,,,
+form_15_base_pdf,,https://drive.google.com/file/d/1p0Wf7pMMw2rmjKjq0rpKlp7kKcF1G-Ej/view,,,,
+form_15_categories,,dv,,,,
+form_16_title,4,Affidavit Disclosing Care or Custody Proceeding,careandcustory,1,Declaración jurada de atención o procedimiento de custodia,
+form_16_desc,,"<p>Use the Affidavit Disclosing Care or Custody to tell the court if there are already any court orders about your child. It also tells the court if any judge is making decisions about your child now.
+Include cases in and outside of Massachusetts. When you sign the form, you swear that the information on it is true and complete as far as you know.</p>
+<p>If you are seeking a Restraining Order (209A) this form is already part of that packet and can be completed there. This is the stand-alone form.</p> ",,,"<p> Use la Declaración jurada de atención o custodia para informarle a la corte si ya hay órdenes judiciales sobre su hijo. También le dice a la corte si algún juez está tomando decisiones sobre su hijo ahora.
+Incluya casos dentro y fuera de Massachusetts. Cuando firmas el formulario, juras que la información que contiene es verdadera y completa hasta donde sabes. </p>
+<p> Si está buscando una orden de restricción (209A), este formulario ya forma parte de ese paquete y puede completarse allí. Esta es la forma independiente. </p>",
+form_16_link,,https://apps.suffolklitlab.org/start/affofcare,,,,
+form_16_base_pdf,,https://www.mass.gov/files/documents/2017/09/01/ocaj-aff-care-custody.pdf,,,,
+form_16_categories,,"dv, family",,,,
+form_17_title,-1,Plaintiff's Affidavit in Support of a Request for Child Support Order,,,,
+form_17_desc,,Allows Plaintiff to make sworn statement in support of child support order regarding Plaintiff's and Defendant's respective income and expenses,,,,
+form_17_link,,,,,,
+form_17_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e83a4696908d60c0667a4f1/11b3c19a54c46cc52fbb42f5c3928f2e/Plaintiff_Affidavit_in_support_of_request_for_child_support_order_-_Laura_Gal.pdf,,,,
+form_17_categories,,family,,,,
+form_18_title,-1,Defendant's Affidavit in Support of a Request for Child Support Order,,,,
+form_18_desc,,Allows Defendant to make sworn statement in connection with a child support order regarding Defendant's and Plaintiff's respective income and expenses,,,,
+form_18_link,,,,,,
+form_18_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e83a3d6e95e4f3136304ec6/c02ff18a332676944c0f604a739d5e43/209A_defendant_s_child_support_affidavit_-_Laura_Gal.pdf,,,,
+form_18_categories,,family,,,,
+form_19_title,-1,Proposed Orders - Temporary Orders,,,,
+form_19_desc,,"Contains proposed temporary orders for child custody, child support, parenting time, and the like",,,,
+form_19_link,,,,,,
+form_19_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b61cdd687ce310b1c8989/608f75b083e07675c56043de8bb4db4f/Proposed_Order.pdf,,,,
+form_19_categories,,family,,,,
+form_20_title,3,Family Law - Motion Form,familymotion,,Derecho de familia - Formulario de petición,
+form_20_desc,,"<p>Generic Family Law motion form for a variety of family law related issues. Can be used for child support, temporary orders, custody, and other emergency needs.</p>
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. After you complete this packet, you will need to call the court and see how they would like it delivered.</i></p>",,,"<p> Formulario de moción de derecho de familia genérico para una variedad de asuntos relacionados con el derecho de familia. Puede usarse para manutención de niños, órdenes temporales, custodia y otras necesidades de emergencia. </p>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. En consecuencia, no es un formulario judicial aprobado. Después de completar este paquete, deberá llamar a la corte y ver cómo les gustaría que se lo entreguen. </i> </p>",
+form_20_link,,https://apps.suffolklitlab.org/start/family_law_motion,,,,
+form_20_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b60ccebe1121b06e5e43a/36ea1ab1a7a1146c486214d5f2fc02e1/Motion_Form_-_Generic.pdf,,,,
+form_20_categories,,family,,,,
+form_21_title,0,Complaint for Contempt,contempt,1,Queja por desprecio,
+form_21_desc,,"Contains complaint for contempt against Defendant for failing to comply with order of child support, alimony, parenting time, etc. ",,,"Contiene una queja por desacato contra el Demandado por no cumplir con la orden de manutención infantil, pensión alimenticia, tiempo de crianza, etc.",
+form_21_link,,,,,,
+form_21_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b5f7095f9447a484a8c10/aa8e191fda204b5e956d8dd46a201e2a/cjd103_print_to_Adobe_PDF_labels_added.pdf,,,,
+form_21_categories,,family,,,,
+form_22_title,-1,Financial Statement - short form,,1,,
+form_22_desc,,"<p>The Probate and Family Courts requires you to fill out a Financial Statement in:
+<ul>
+<li>divorce cases,</li>
+<li>separate support cases,</li>
+<li>custody cases,</li>
+<li>child support cases, and</li>
+<li>similar family law cases.</li>
+</ul></p>
+<p>The form has two purposes:
+<ul>
+<li>for you to explain your financial situation to the court, and</li>
+<li>for each party in the case to explain his or her financial situation to the other party.</li>
+</ul></p>
+<p>The Financial Statement is an extremely important court document. When you sign the Financial Statement you swear that you are telling the truth.</li>
+<p> You can use the Financial Statement short form if your income is less than $75,000/year, before taxes.</p>",,,,
+form_22_link,,,,,,
+form_22_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b62081344926de7f94986/ce3027d1800f229ac5a9318711015086/Financial_Statement_-_Short_Form.pdf,,,,
+form_22_categories,,family,,,,
+form_23_title,1,Marriage without Delay,marriagewodelay,1,Matrimonio sin demora,
+form_23_desc,,"<p>Ask the court to skip the 3 day waiting period when you apply for a Marriage License. Before you file a Marriage Without Delay, call the clerk in the  town where you want to get married. Ask the clerk what you need to apply for a Marriage License. </p>
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. After you complete this packet, you will need to call the court and see how they would like it delivered.</i></p>",,,"<p>Contiene una petición de matrimonio inmediato por parte de la corte.</p>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. En consecuencia, no es un formulario judicial aprobado. Después de completar este paquete, deberá llamar a la corte y ver cómo les gustaría que se lo entreguen. </i> </p>",
+form_23_link,,https://apps.suffolklitlab.org/start/marriagewithoutdelay,,,,
+form_23_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e95febc75a5bd879f38c22b/62794ea2ad31037afa34589da54a0e5c/4._Marriage_without_Delay.pdf,,,,
+form_23_categories,,family,,,,
+form_24_title,-1,Blank Affidavit Form,,,,
+form_24_desc,,affidavit form for general famly law matters,,,,
+form_24_link,,,,,,
+form_24_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b605858bd8c57e43bcf99/35e38bb6294fe05cbcf1838a4f9f0356/Blank_Affidavit.pdf,,,,
+form_24_categories,,family,,,,
+form_25_title,-1,DOR Application Form,,,,
+form_25_desc,,"This is an application form for services from the Massachusetts Department of Revenue, Child Support Enforcement Division. It is to be completed after entry of a child support order by the court ",,,,
+form_25_link,,,,,,
+form_25_base_pdf,,,,,,
+form_25_categories,,family,,,,
+form_26_title,-1,Child Support Guidelines Worksheet,,1,,
+form_26_desc,,"<p>Judges use the Child Support Guidelines Worksheet to figure out how much child support to order.</p>
+<p>On the Worksheet each parent puts their:
+<ul>
+<li>“gross weekly income,”</li>
+<li>child care payments,</li>
+<li>health care coverage payments,</li>
+<li>dental and vision insurance payments,</li>
+<li>other child support payments, and</li>
+<li>The number of children the child support order will cover.</li>
+</ul></p>
+<p>The Worksheet calculates the amount of income each parent has for supporting your children and a basic amount of child support.</p>",,,,
+form_26_link,,,,,,
+form_26_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b6104e794dc7a5fa5b663/db37745bc698f4c4df99b5d487e810a0/Child_Support_Guidelines_Worksheet.pdf,,,,
+form_26_categories,,family,,,,
+form_27_title,-1,Military Affidavit,,,,
+form_27_desc,,allows party to make a sworn statement that they are in the military. Used for guardianship and family law members,,,,
+form_27_link,,,,,,
+form_27_base_pdf,,,,,,
+form_27_categories,,"family, guardianship",,,,
+form_28_title,-1,Motion of Temporary Appointment for Guardian of a Minor,,,,
+form_28_desc,,contains motion for temporary appointment of guardian for a minor. Used for emergency circumstances where delay could cause harm to the minor,,,,
+form_28_link,,,,,,
+form_28_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e0a20dc20569557d6b5b/bfe79bb0d5ec6e55f1fd68e82f9b6ac3/guardianship_minor_temp_order_-_Laura_Gal.pdf,,,,
+form_28_categories,,"family, guardianship",,,,
+form_29_title,0,Petition for Appointment of Guardianship of Minor,minorguard,1,Petición de Nombramiento de Tutela de Menor,
+form_29_desc,,"Contains petition for appointment of a guardian for a minor. Petitioner must provide information about the minor, about petitioner, and about the minor's biological parents, in addition to providing reasons that the minor needs a guardian.",,,"Contiene petición de nombramiento de un tutor para un menor. El peticionario debe proporcionar información sobre el menor, sobre el peticionario y sobre los padres biológicos del menor, además de proporcionar los motivos por los cuales el menor necesita un tutor.",
+form_29_link,,,,,,
+form_29_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e07a790e8b169901e2ff/34b7a6434e21326f3d88d5eefa8c513e/petition_guardianship_minor_-_Laura_Gal.pdf,,,,
+form_29_categories,,"family, guardianship",,,,
+form_30_title,-1,Petition for Removal of Guardian,,,,
+form_30_desc,,"contains a petition for an interested party, the minor, or minor's parent's to request removal of a guardian",,,,
+form_30_link,,,,,,
+form_30_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e0982ad52e16a687e38c/27a67bd54457526835f61f849e88e5b1/guardianship_removal_petition_-_Laura_Gal.pdf,,,,
+form_30_categories,,"family, guardianship",,,,
+form_31_title,-1,Request for Counsel,,,,
+form_31_desc,,contains request for an attorney to be appointed for the minor. Can be requested by the minor (if 14+ years of age) or by an interested party,,,,
+form_31_link,,,,,,
+form_31_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e0703eca3a2fe80aec73/4b0d19b151316f10eda3b83b089ab69a/guardianship_minor_request_for_counsel_-_Laura_Gal.pdf,,,,
+form_31_categories,,"family, guardianship",,,,
+form_32_title,-1,Consent or Nomination by Minor,,,,
+form_32_desc,,Contains consent form for minors 14+ years of age to either grant/deny consent to appointment of a guardian or nominate a guardian,,,,
+form_32_link,,,,,,
+form_32_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e84e08d0fe08a3a79dcd956/8ec95f58f94eb7b3a537ad2f3bbe668f/guardianship_minor_consent_child_-_Laura_Gal.pdf,,,,
+form_32_categories,,"family, guardianship",,,,
+form_33_title,-1,Waiver and Consent to Petition for Guardianship of a Minor,,,,
+form_33_desc,,Contains consent form for parent/interested party of a minor to acknowledge that a petition for guardian for the minor has been made,,,,
+form_33_link,,,,,,
+form_33_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b54ad5092f572c5b9038c/434bc81b8f071872a391860809493fe5/guardianship_minor_consent_-_Laura_Gal.pdf,,,,
+form_33_categories,,"family, guardianship",,,,
+form_34_title,-1,Bond,,,,
+form_34_desc,,"form for a fiduciary to post bond (for purposes of MassAccess, probably just guardians and conservators, but could also be used in probate for executor/administrator/trustee)",,,,
+form_34_link,,,,,,
+form_34_base_pdf,,,,,,
+form_34_categories,,"family, guardianship",,,,
+form_35_title,-1,Petition for Appointment of Conservator for Disabled Person or For Single Transaction,,,,
+form_35_desc,,contains a petition for appointment of a conservator for a minor or disabled adult,,,,
+form_35_link,,,,,,
+form_35_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e95fde856a75d8e1f09b5b5/28911336bc6f1814a5735e62e34e34d7/Petition_for_Conservator_130.pdf,,,,
+form_35_categories,,"family, guardianship",,,,
+form_36_title,2,Affidavit of Indigency,indigency,1,Declaración jurada de indigencia,
+form_36_desc,,"<p>If you need to go to court, but you cannot afford the fees and charges, you may not have to pay them. The court can “waive” the fees, or ask the state to pay the normal court fees.</p>
+
+<p>The court can also waive or ask the state to pay for “extra” fees.</p>
+
+<p>This form tells the court you cannot afford the fees related to your case.</p>
+
+<p>If the clerk or a judge approves the form, you will not have to pay.</p>",,,Permite al solicitante hacer una declaración jurada de que son indigentes y que deben exonerarse de los honorarios del tribunal.,
+form_36_link,,https://apps.suffolklitlab.org/start/indigency,,,,
+form_36_base_pdf,,https://www.mass.gov/doc/affidavit-of-indigency/download,,,,
+form_36_categories,,other,,,,
+form_37_title,0,Supplement to Affidavit of Indigency,indigencysup,1,Suplemento a la Declaración Jurada de Indigencia,
+form_37_desc,,"<p>Use this form when you file the Affidavit of Indigency if:
+<ul><li>You do not get the needs based benefits listed in Section A of Affifdavit of Indigency, or</li>
+<li>your income is too high to check Box B on the Affidavit.</li>
+</ul></p>
+<p> If you need to check Box C on the Affidavit of Indigency, you need this supplemental form, also. It asks about your income and expenses to show the court that you cannot afford to  pay court fees and costs.</p>",,,Debe presentarse con una Declaración Jurada de Indigencia donde el solicitante marque la casilla C en la Declaración Jurada de Indigencia (no puede pagar las tarifas / costos sin verse privado de las necesidades de la vida). Contiene información financiera para completar la solicitud.,
+form_37_link,,,,,,
+form_37_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5e8b6c7d2036cd1560d7db07/9d0e3a2ac80b9583218dbfc8a8a6ea2c/AOI_Supplement.pdf,,,,
+form_37_categories,,other,,,,
+form_38_title,1,Notice of Limited Appearance,lar,,Aviso de aparición limitada,
+form_38_desc,,"<p>For use by an attorney. You can use this form to fill out and send a link to your client to sign in a case involving limited assistance representation. You must have completed the applicable LAR trainings.</p>
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. It will help you produce a letter that you can mail or email to your landlord.</i></p>
+<p><b>This form is national and can be used anywhere in the United States.</b></p> ",,,"<p> Para uso de un abogado. Puede utilizar este formulario para completar y enviar un enlace a su cliente para que firme en un caso que involucre representación de asistencia limitada. Debes haber completado las capacitaciones de LAR correspondientes. </p>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. En consecuencia, no es un formulario judicial aprobado. Le ayudará a producir una carta que puede enviar por correo o correo electrónico a su arrendador. </i> </p>
+<p> <b> Este formulario es nacional y se puede utilizar en cualquier lugar de los Estados Unidos. </b> </p>",
+form_38_link,,https://apps.suffolklitlab.org/start/lar,,,,
+form_38_base_pdf,,https://www.mass.gov/files/documents/2019/02/01/jud-Notice_of_Limited_Appearance_31jan2019.pdf,,,,
+form_38_categories,,other,,,,
+form_39_title,10,Application for a 209A Restraining Order,209A,,Solicitud de una orden de restricción 209A,
+form_39_desc,,"<p>Ask the court to order a member of your family, household, or someone you date to stop abusing you.  You can also ask the court to order someone you <b>were</b> in a relationship with to stop abusing you. People use different names for this court order. It is an Abuse Prevention Order, a 209A, a Protection from Abuse Order, a Restraining Order, or an injunction. The application includes up to 4-5 forms you must complete:</p>
+<ol>
+<li>Complaint for Protection from Abuse (G.L. c. 209A) Page 1,</li>
+<li>Complaint for Protection from Abuse (G.L. c. 209A) Page 2. You must complete this form if you have children under 18,</li>
+<li>An Affidavit you write that describes the abuse and why you need the court order, </li>
+<li>Plaintiff Confidential Information Form that gives the court your addresses and ways to contact you while keeping this information from the public,</li>
+<li>Defendant Information Form to help the police find, identify and give the person who abused you a copy of the order and notice about the next hearing.</li>
+</ol>
+<p>And 3 more forms, if you need them:</p>
+<ol>
+<li>Motion to Impound so you can keep information on your application away from the public and some people who normally can see it,</li>
+<li>Affidavit Disclosing Care or Custody Proceeding that tells the court about any other court cases your children have ever been involved in, and</li>
+<li>Plaintiff’s Affidavit in Support of Request for Child Support Order which gives the court your financial information and the defendant's if you are asking the court to order child support.</li>
+</ol>
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. After you complete this packet, you will need to call the court and see how they would like it delivered.</i></p>",,,"<p> Pídale a la corte que ordene a un miembro de su familia, hogar o alguien con quien salga que deje de abusar de usted. También puede pedirle al tribunal que ordene a alguien con quien <b> estaba </b> en una relación que deje de abusar de usted. La gente usa diferentes nombres para esta orden judicial. Es una Orden de Prevención de Abuso, una 209A, una Orden de Protección contra Abuso, una Orden de Restricción o una orden judicial. La solicitud incluye hasta 4-5 formularios que debe completar: </p>
+<ol>
+<li> Queja de protección contra el abuso (G.L. c. 209A) Página 1, </li>
+<li> Queja para protección contra abuso (G.L. c. 209A) Página 2. Debe completar este formulario si tiene hijos menores de 18 años, </li>
+<li> Una declaración jurada que escriba que describa el abuso y por qué necesita la orden judicial, </li>
+<li> Formulario de información confidencial del demandante que le brinda al tribunal sus direcciones y formas de comunicarse con usted mientras mantiene esta información al público, </li>
+<li> Formulario de información del acusado para ayudar a la policía a encontrar, identificar y entregar a la persona que abusó de usted una copia de la orden y un aviso sobre la próxima audiencia. </li>
+</ol>
+<p> Y 3 formularios más, si los necesita: </p>
+<ol>
+<li> Moción para incautar para que pueda mantener la información de su solicitud fuera del alcance del público y de algunas personas que normalmente pueden verla, </li>
+<li> Declaración jurada que divulga el procedimiento de custodia o cuidado que informa al tribunal sobre cualquier otro caso judicial en el que sus hijos hayan estado involucrados, y </li>
+<li> Declaración jurada del demandante en apoyo de la solicitud de orden de manutención infantil, que le brinda al tribunal su información financiera y la del demandado si le solicita al tribunal que ordene la manutención infantil. </li>
+</ol>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. En consecuencia, no es un formulario judicial aprobado. Después de completar este paquete, deberá llamar a la corte y ver cómo les gustaría que se lo entreguen. </i> </p>",
+form_39_link,,http://apps.suffolklitlab.org/start/209a,,,,
+form_39_base_pdf,,,,,,
+form_39_categories,,dv,,,,
+form_40_title,100,"<a name=""CDC"">CDC Eviction Moratorium Assistant</a>",CDC,,"<a name=""CDC"">Asistente de Moratoria de Desalojo del CDC</a>",
+form_40_desc,,"<p>To mitigate community spread of the novel coronavirus, the Centers for Disease Control (CDC) has issued <a href=""https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-19654.pdf"" target=""_blank"">an order</a> pausing residential evictions for some tenants unable to make rental payments due to hardships caused by the coronavirus. Use this form to see if you are covered by this order and to produce a declaration to share with your landlord if you are.</p><p>To qualify, you must:</p><ul>
+<li>Earn under the income limit.</li>
+<li>Be unable to pay your rent because you lost income.</li>
+<li>Be at risk of homelessness or doubling up (sharing housing in close quarters).</li>
+</ul>
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. It will help you produce a letter that you can mail or email to your landlord.</i></p>
+<p><span style=""background:yellow""><b>This form is national and can be used anywhere in the United States.</b></style></p>",,,"<p>Para mitigar propagación en la comunidad del nuevo coronavirus, el Centro para el Control y la Prevención de Enfermedades (CDC) he publicado <a href = ""https://s3.amazonaws.com/public-inspection.federalregister.gov/2020-19654.pdf ""target ="" _ blank ""> una orden</a> poniendo en pausa los desalojos residenciales para los residentes que no pueden hacer los pagos del alquiler por causa del coronavirus. Use este formulario para ver si estarás cubierto por esta orden y para producir una declaración que puedes darle a tu propietario con esa información.</p> 
+<p> Para cualificar, tienes que: </p> <ul>
+<li> Ganar menos del límite de ingresos </li>
+<li> No poder pagar su alquiler porque perdiste tus ingresos</li>
+<li> Estar en peligro de estar sin hogar o compartir una habitación de poca proximidad</li>
+</ul>
+<p> <i>Diferente a los otros formularios en este sitio web, este formulario no tiene la intención de ser enviado a los Tribunales del estado de Massachusetts. En consecuencia, no es un formulario aprobado por el tribunal. Te ayudará producir una carta que puedas enviar o mandar por correo electrónico a su propietario.</i> </p>
+<p> <span style = ""background: yellow""><b>Este formulario es nacional, y puede ser usado en cualquier estado de los Estados Unidos.</b></style> </p>",
+form_40_link,,https://apps.suffolklitlab.org/start/cdc_moratorium,,,https://apps.suffolklitlab.org/start/cdc_moratorium?lang=es,
+form_40_base_pdf,,,,,,
+form_40_categories,,housing,,,,
+form_41_title,0,Massachusetts Defense for Eviction (MADE),MADE,,Defensa de desalojo (MADE) de Massachusetts,
+form_41_desc,,"<p>This completely free guided interview is for Massachusetts tenants who are being evicted. It is estimated to take between 25 and 90 minutes for a typical tenant to use on their own. It will help you make sure that you respond to your landlord's eviction case correctly. It can send you reminders of important dates by text and email. It includes videos and educational links.</p><p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an aproved court form. At the end of the form, you can download, print, and send or e-file using the court's official E-Filing portal.</i></p>",,,"<p>Este guía interrogatorio completamente gratis es solo para inquilinos de Massachusetts que están siendo desalojados. Se estimula que normalmente le tomara al inquilino entre 25 y 90 minutos para completar por sí solo. Se asegura de ayudarle a que usted le responda a su propetario/arrendador la orden de desalojo correctamente. También le puede enviar recordatorios de fechas importantes por texto y correo electrónicos. Le incluye videos y enlaces educativos. Al aceptar usar este sistema usted acepta nuestras regulaciones de uso. Si usted se encuentra en una clínica en la oficina de Servicios Legales de Boston, elija el enlace de “Clinica”. Sino elija “Comenzar entrevista”. Aprenda más al respecto de MADE.</p>",
+form_41_link,,https://gbls.org/MADE,,,https://gbls.org/MADE/es,
+form_41_base_pdf,,,,,,
+form_41_categories,,housing,,,,
+form_42_title,-1,MA Health Care Proxy form,healthcareproxy,,,
+form_42_desc,,Form for designating an agent to make health care decisions on behalf of the petitioner if they are unable to themselves. ,,,,
+form_42_link,,,,,,
+form_42_base_pdf,,https://trello-attachments.s3.amazonaws.com/5e7a59002834604886a7b4e8/5f55974b2a95c35c6112ddd3/cdc9ed8cbcf3c80cfab97e94bd592779/Massachusetts_Healthcare_Proxy_(2).pdf,,,,
+form_42_categories,,health,,,,
+form_43_title,2,Motion to Vacate Marital Home,vacatehome,,Moción para desocupar el hogar conyugal,
+form_43_desc,,"<p>This form allows you to ask a judge to remove someone from your home to protect your safety or the safety of your children.</p>
+
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. After you complete this packet, you will need to call the court and see how they would like it delivered.</i></p>",,,"<p> Este formulario le permite pedirle a un juez que saque a alguien de su casa para proteger su seguridad o la seguridad de sus hijos. </p>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. En consecuencia, no es un formulario judicial aprobado. Después de completar este paquete, deberá llamar a la corte y ver cómo les gustaría que se lo entreguen. </i> </p>",
+form_43_link,,https://apps.suffolklitlab.org/start/vacatehome,,,,
+form_43_base_pdf,,,,,,
+form_43_categories,,"family, dv",,,,
+form_44_title,-1,Motion to Dismiss for Prematurely Commenced ,,,,
+form_44_desc,,This is a form that allows for someone to draft a motion to dismiss for a tenant who received a summary process action was allegedly commenced by service of the summary process summons and complaint that was given before the notice to quit expired. ,,,,
+form_44_link,,,,,,
+form_44_base_pdf,,https://trello.com/c/ZsRDZjIN,,,,
+form_44_categories,,housing ,,,,
+form_45_title,-1,Motion for Summary Judgement or Motion to Dismiss for Failure to Properly Terminate Tenancy,,,,
+form_45_desc,,This is a motion for summary judgement to dismiss a case because the tenant/defendant did not receive a notice to quit and thus the landlord/plaintiff failed to follow the proper process to terminate the tenancy. ,,,,
+form_45_link,,,,,,
+form_45_base_pdf,,https://trello.com/c/B8TKSjVl,,,,
+form_45_categories,,housing ,,,,
+form_46_title,1,Motion to Dismiss - Non-Essential Eviction (Massachusetts Moratorium),dismissnonessential,,Moción para desestimar - Desalojo no esencial (Moratoria de Massachusetts),
+form_46_desc,,"<p>This form helps Massachusetts tenants ask the court to dismiss an eviction because the eviction is not ""essential."" Under Governor Baker's eviction moratorium landlords can file only ""essential"" evictions. The moratorium currently ends October 17, 2020.</p>
+<p><i>Unlike other forms found on this site, this form is not intended for direct filing with the Massachusetts Trial Court. Consequently, it is not an approved court form. After you complete this packet, you will need to call the court and see how they would like it delivered.</i></p>",,,"<p> Este formulario ayuda a los inquilinos de Massachusetts a pedirle a la corte que desestime un desalojo porque el desalojo no es """" esencial ""."" Según la moratoria de desalojo del gobernador Baker, los propietarios pueden presentar sólo desalojos """" esenciales """". La moratoria actualmente finaliza el 17 de octubre de 2020. </p>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. En consecuencia, no es un formulario judicial aprobado. Después de completar este paquete, deberá llamar a la corte y ver cómo les gustaría que se lo entreguen. </i> </p>",
+form_46_link,,https://apps.suffolklitlab.org/start/eviction_moratorium/,,,,
+form_46_base_pdf,,,,,,
+form_46_categories,,housing,,,,
+form_47_title,-1,Reinstatement of Tenancy,,,,
+form_47_desc,,,,,,
+form_47_link,,https://trello.com/c/sl2sUf9C/137-reinstatement-of-tenancy,,,,
+form_47_base_pdf,,https://www.mass.gov/doc/voluntary-administration-statement-mpc-170/download,,,,
+form_47_categories,,housing,,,,
+form_48_title,-1,Voluntary Administration Statement (MPC 170),,,,
+form_48_desc,,<p>This form helps a petitioner probate a small estate with no real estate and minimal assets.</p>,,,,
+form_48_link,,,,,,
+form_48_base_pdf,,,,,,
+form_48_categories,,other,,,,
+form_49_title,-1,Counterclaim for Divorce ,,,,
+form_49_desc,,This form allows a defendant in a divorce case to ask the court for affirmative relief in the same case that the plaintiff filed. ,,,,
+form_49_link,,,,,,
+form_49_base_pdf,,https://www.mass.gov/doc/counterclaim-for-divorce-cjd-202/download,,,,
+form_49_categories,,family ,,,,
+form_50_title,-1,https://trello.com/c/SzkQeEYc/12-petition-to-enforce-sanitary-code,,,,
+form_50_desc,,Petition to Enforce Sanitary Code,,,,
+form_50_link,,,,,,
+form_50_base_pdf,,https://www.masslegalhelp.org/housing/lt1-form-14-tenant-petition.pdf,,,,
+form_50_categories,,Housing/landlord/tenant,,,,
+form_51_title,-1,Statement of Conditions,,,,
+form_51_desc,,This form helps tenants create a cohesive Statement of Conditions per the Moving-In Checklist guidlines ,,,,
+form_51_link,,,,,,
+form_51_base_pdf,,https://www.masslegalhelp.org/housing/lt1-form-3-statement-of-condition.pdf,,,,
+form_51_categories,,housing/landlord/tenant/,,,,
+form_52_title,-1,Petition to Change Name of Adult,,,,
+form_52_desc,,"This form is for adults who want to change their legal name in Massachusetts (e.g., because they got married, got divorced, want to their legal name to match their gender identity)",,,,
+form_52_link,,,,,,
+form_52_base_pdf,,https://trello-attachments.s3.amazonaws.com/5f51dbb45a4e5a5c88de1b9b/5f8f12df8497b503fe450bbe/aff2bafc76ac46a2514b7b3f81cce01a/petition_to_change_name_of_adult_2020_10_04.pdf,,,,
+form_52_categories,,Other,,,,
+form_53_title,90,Motion to Dismiss or Stay Eviction for tenant who filed CDC Moratorium,mtdCDC,,Moción para desestimar o suspender el desalojo para el inquilino que presentó la moratoria de los CDC,
+form_53_desc,,"If you sent your landlord a CDC Declaration, you can use this form to ask the court to dismiss or stay your eviction.",,,"Si envió a su arrendador una Declaración de los CDC, puede usar este formulario para pedirle al tribunal que desestime o suspenda su desalojo.",
+form_53_link,,https://apps.suffolklitlab.org/start/cdc_mtd/,,,,
+form_53_base_pdf,,,,,,
+form_53_categories,,housing,,,,
+form_54_title,-1,Security Deposit Demand Letter,,,,
+form_54_desc,,"A plaintiff/tenant who has moved out will use this form to receive his/her security deposit from their previous landlord.
+A tenant will use this form when his/her landlord fails to return their security deposit within 30 days from when the tenant moves out. This Security Deposit Demand Letter will be sent to the landlord from the tenant before pursuing the claim in court.This is an initial notice to the landlord.",,,,
+form_54_link,,https://www.masslegalhelp.org/housing/lt1-form-6-security-deposit-demand-tenants.pdf,,,,
+form_54_base_pdf,,https://trello.com/c/d8i10koO/30-security-deposit-demand-letter,,,,
+form_54_categories,,housing/landlord/tenant,,,,
+form_55_title,-1,Letter to Request a Grievance Hearing,,,,
+form_55_desc,,lorum ipsum,,,,
+form_55_link,,,,,,
+form_55_base_pdf,,,,,,
+form_55_categories,,family,,,,
+form_56_title,2,Superior Court Civil Action Cover Sheet,civilcover,,Hoja de portada de acción civil del Tribunal Superior,
+form_56_desc,,"<p>This cover sheet must be filed in each civil case entered into Superior Court. The purpose is to assist the Clerk’s office by providing basic contact information for the parties, the case category, an estimation of how long the case will take, statement of damages and related cases pending in the Superior Court.</p>
+<p><i>Unlike other forms found on this site, this form is not yet intended for direct filing with the Massachusetts Trial Court. It is not yet an approved court form. It will help you produce a document you can download and file on your own.</i></p>",,,"<p> Esta portada debe presentarse en cada caso civil que se ingrese en el Tribunal Superior. El propósito es ayudar a la oficina del secretario al proporcionar información de contacto básica para las partes, la categoría del caso, una estimación de cuánto tiempo tomará el caso, una declaración de daños y casos relacionados pendientes en el Tribunal Superior. </p>
+<p> <i> A diferencia de otros formularios que se encuentran en este sitio, este formulario aún no está destinado a ser presentado directamente ante el Tribunal de Primera Instancia de Massachusetts. Aún no es un formulario judicial aprobado. Le ayudará a producir un documento que puede descargar y archivar por su cuenta. </i> </p>",
+form_56_link,,https://apps.suffolklitlab.org/start/cacs,,,,
+form_56_base_pdf,,https://github.com/SuffolkLITLab/docassemble-CivilActionCoverSheet/raw/master/docassemble/CivilActionCoverSheet/data/templates/Civil_Action_Cover_Sheet.pdf,,,,
+form_56_categories,,"consumer, dv, family, housing, other",,,,
+form_57_title,-1,Court Activity Record Information and Warrant Management System Release Request Form (CJP 34),,,,
+form_57_desc,,"Any resident of Massachusetts who is eighteen (18) years of age or over can legally change their name as long as they are not doing so for fraudulent purposes. In conjunction with, and subsequent to, Petition to Change Name of Adult (CJP 27), on must fill out (CJP 34) Court Activity Record Information and Warrant Management System Release Request Form.",,,,
+form_57_link,,https://www.mass.gov/lists/probate-and-family-court-forms-for-adoption-and-name-change,,,,
+form_57_base_pdf,,file:///D:/Downloads/cjp34-cari-wms-request-form-1%20(1).pdf,,,,
+form_57_categories,,family,,,,
+form_58_title,-1,Motion for Enlargement of Time (Appeals),,,,
+form_58_desc,,"Appeals Court - If the appellant or appellee cannot meet the prescribed deadline in which to serve and file your brief and appendix, or a status report, you may file a motion with the Appeals Court asking for more time.",,,,
+form_58_link,,,,,,
+form_58_base_pdf,,,,,,
+form_58_categories,,housing,,,,
+form_59_title,-1,Motion to Stay Eviction (Appeals),StayEviction,,,
+form_59_desc,,This is a motion that is filed often by self-represented litigants that requires a lot of detailed information and with which a walk-in filer will often seek the assistance of a clerk.,,,,
+form_59_link,,https://apps-dev.suffolklitlab.org/interview?i=docassemble.playground37MBSP6A%3ASP6A.yml#page1,,,,
+form_59_base_pdf,,,,,,
+form_59_categories,,housing,,,,
+form_60_title,-1,Motion for Service by Alternative Means and Affidavit of Diligent Search,AltMeansofService,,,
+form_60_desc,,TBD,,,,
+form_60_link,,https://www.masslegalhelp.org/family/cjp31-motion-for-service-by-alternate-means-and-affidavit-of-diligent-search-sample.pdf,,,,
+form_60_base_pdf,,,,,,
+form_60_categories,,family,,,,
+form_61_title,-1,Attorney Authorization to Release Information English/Spanish,,,,
+form_61_desc,,TBD,,,,
+form_61_link,,,,,,
+form_61_base_pdf,,,,,,
+form_61_categories,,other,,,,
+form_62_title,-1,BHA Authorization to Release Information and Records,,,,
+form_62_desc,,TBD,,,,
+form_62_link,,,,,,
+form_62_base_pdf,,,,,,
+form_62_categories,,"housing, other",,,,
+form_63_title,-1,Child Support Answer,,,,
+form_63_desc,,rbd,,,,
+form_63_link,,,,,,
+form_63_base_pdf,,,,,,
+form_63_categories,,family,,,,
+form_64_title,-1,Massachusetts Rental Voucher Program (MRVP),,,,
+form_64_desc,,"The Massachusetts Rental Voucher Program (MRVP), provides a permanent improvement in the lives of low-income families and individuals by offering rental subsidies to those eligible for the program.",,,,
+form_64_link,,https://www.mass.gov/doc/mrvp-application-form-english/download,,,,
+form_64_base_pdf,,TBD,,,,
+form_64_categories,,housing,,,,
+form_65_title,-1,Motion to Impound Addresses from Opposing Party,,,,
+form_65_desc,,tbd,,,,
+form_65_link,,,,,,
+form_65_base_pdf,,,,,,
+form_65_categories,,"family, probate",,,,
+form_66_title,-1,General Agency Release of Information,,,,
+form_66_desc,,This general form authorizes an agency to release all the information it has about the attorney's client to the attorney.,,,,
+form_66_link,,,,,,
+form_66_base_pdf,,,,,,
+form_66_categories,,other,,,,
+form_67_title,-1,Miscellaneous Motions,,,,
+form_67_desc,,Miscellaneous motion to grant some sort of relief in court.,,,,
+form_67_link,,,,,,
+form_67_base_pdf,,,,,,
+form_67_categories,,misc.,,,,
