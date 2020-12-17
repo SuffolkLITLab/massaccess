@@ -400,12 +400,34 @@ form_57_link,,https://www.mass.gov/lists/probate-and-family-court-forms-for-adop
 form_57_base_pdf,,file:///D:/Downloads/cjp34-cari-wms-request-form-1%20(1).pdf,,,,
 form_57_categories,,family,,,,
 form_58_title,-1,Motion for Enlargement of Time (Appeals),enlarge,,,
-form_58_desc,,"If the appellant or appellee cannot meet the prescribed deadline in which to serve and file your brief and appendix, or a status report, you may file a motion with the Appeals Court asking for more time.",,,,
+form_58_desc,,If for some reason you cannot meet the current due date to serve and file your brief you may file a Motion for Enlargement of Time to File a Brief with the Appeals Court asking for more time.,,,,
 form_58_link,,,,,,
 form_58_base_pdf,,,,,,
 form_58_categories,,"appeals, housing",,,,
-form_59_title,1,Motion to Stay Eviction (Appeals),stayeviction,,,
-form_59_desc,,This is a motion that is filed often by self-represented litigants that requires a lot of detailed information and with which a walk-in filer will often seek the assistance of a clerk.,,,,
+form_59_title,-1,Motion to Stay Eviction (Appeals),stayeviction,,Moción para suspender el desalojo ,
+form_59_desc,,"<p>If a trial court judge has ordered you to be evicted, use this form to appeal the trial court judge's order and ask the appeals court to prevent your eviction.</p> 
+<p>Before using this form, you must ask for a Stay in the Housing Court.</p>
+<p>If you have not already done so, you can use this form to download a Notice of Appeal and file a Waiver of Appeal Bond.</p>
+<p>To use this form, you will need relevant Housing Court documents including:</p>
+  <ul>
+    <li>the Housing Court's docket</li>
+    <li>the complaint</li>
+    <li>your answer</li>
+    <li>the judgment</li>
+    <li>filings related to your motion to stay in the Housing Court</li>
+ </ul>
+<p>For more information on what you need to file an appeal, view the <a href=""https://www.mass.gov/guides/housing-appeals-guide#-automatic-stay-pending-appeal"" target=""_blank"">Housing Appeal Guide</a>.</p>",,,"<p> Si un juez de la corte de primera instancia ha ordenado que lo desalojen, use este formulario para apelar la orden del juez de la corte de primera instancia y pídale a la corte de apelaciones que evite su desalojo. </p>
+<p> Antes de usar este formulario, debe solicitar una suspensión en el tribunal de vivienda. </p>
+<p> Si aún no lo ha hecho, puede utilizar este formulario para descargar un Aviso de apelación y presentar una Exención de fianza de apelación. </p>
+<p> Para utilizar este formulario, necesitará los documentos pertinentes del Tribunal de Vivienda, que incluyen: </p>
+  <ul>
+    <li> el expediente del Tribunal de Vivienda </li>
+    <li> la queja </li>
+    <li> tu respuesta </li>
+    <li> el juicio </li>
+    <li> presentaciones relacionadas con su moción para permanecer en el Tribunal de Vivienda </li>
+ </ul>
+<p> Para obtener más información sobre lo que necesita para presentar una apelación, consulte el objetivo <a href=""https://www.mass.gov/guides/housing-appeals-guide#-automatic-stay-pending-appeal"" target= ""_ blank""> Guía de apelaciones de vivienda </a>. </p>",
 form_59_link,,https://apps.suffolklitlab.org/start/appeal_stay_eviction/,,,,
 form_59_base_pdf,,,,,,
 form_59_categories,,"appeals, housing",,,,
