@@ -71,9 +71,9 @@ function resouces(name,id,text_id){
   }
 
   if (courtforms_str != "" && malrf_str != "") {
-    html = "<p>Here is <a href=\""+courtforms_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">our collection of relevent form(s)</a>. You can also use the MA Legal Resource Finder to find additional relevant resources by <a href=\""+malrf_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">answering a few questions</a>.</p>"
+    html = "<p>Here is <a href=\""+courtforms_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">our collection of relevant form(s)</a>. You can also use the MA Legal Resource Finder to find additional relevant resources by <a href=\""+malrf_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">answering a few questions</a>.</p>"
   } else if (courtforms_str != "") {
-    html = "<p>Here is <a href=\""+courtforms_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">our collection of relevent form(s)</a>.</p>"
+    html = "<p>Here is <a href=\""+courtforms_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">our collection of relevant form(s)</a>.</p>"
   } else if (malrf_str != "") {
     html = "<p><i>Our issue spotter didn't find any relevant forms on this site.</i> Use the MA Legal Resource Finder to find additional resources by <a href=\""+malrf_str+"\" target=\"_blank\" onClick=\"label('"+text_id+"',1,['"+id+"']);\">answering a few questions</a>.</p>"
   } else {
